@@ -30,11 +30,11 @@ jobs:
       #     pkg-manager: yarn 
       - run:
           name: Clean files
-          command: npm clean
+          command: npm run clean
 
       - run:
           name: Run build
-          command: npm build
+          command: npm run build
 
 workflows:
   # Below is the definition of your workflow.
