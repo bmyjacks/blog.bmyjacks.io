@@ -1,4 +1,10 @@
 {
+  "routes": [
+    {
+      "src": "/arc-sw.js",
+      "dest": "https://arc.io/arc-sw.js"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -8,12 +14,6 @@
           "value" : "max-age=63072000; includeSubDomains; preload"
         }
       ]
-    }
-  ],
-  "routes": [
-    {
-      "src": "/arc-sw.js",
-      "dest": "https://arc.io/arc-sw.js"
     }
   ]
 }
