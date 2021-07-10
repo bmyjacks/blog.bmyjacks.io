@@ -1,13 +1,13 @@
 {
-  "headers": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "headers" : [
-        {
-          "key" : "strict-transport-security",
-          "value" : "max-age=63072000; includeSubDomains; preload"
-        }
-      ]
+      "src": "/arc-sw.js",
+      "dest": "https://arc.io/arc-sw.js"
+    },
+    {
+      "src": "/(.*)",
+      "headers": {"strict-transport-security": "max-age=63072000; includeSubDomains; preload"},
+      "continue": true
     }
   ]
 }
