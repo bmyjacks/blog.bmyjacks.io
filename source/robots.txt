@@ -4,5 +4,6 @@ Disallow: /css/
 Disallow: /images/
 Disallow: /favicon/
 Disallow: /js/
-Disallow: /privacy_policy/
+Disallow: /privacy-policy/
+DisAllow: /dsar/
 Sitemap: https://www.bmyjacks.cn/sitemap.xml
