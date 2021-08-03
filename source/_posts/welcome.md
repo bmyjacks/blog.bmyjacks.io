@@ -17,7 +17,7 @@ copyright: false
 
 ## 内容分类
 
-最新博文: [英伟达Jetson nano创造我们自定义的系统](https://www.bmyjacks.cn/2021/jetson-nano-scratch-system/)
+最新博文: [入门 OpenGL 教程 EP1 - 搭建环境](https://www.bmyjacks.cn/2021/opengl-env/)
 做题记录: [总览](/categories/做题记录/)
 算法学习笔记：[总览](/categories/算法笔记/)
 
