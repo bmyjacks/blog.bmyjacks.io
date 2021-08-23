@@ -17,7 +17,7 @@ copyright: false
 
 ## 内容分类
 
-最新博文: [入门 OpenGL 教程 EP1 - 搭建环境](https://www.bmyjacks.cn/2021/opengl-env/)
+最新博文: [入门 OpenGL 教程 EP2-Hello Window](https://www.bmyjacks.cn/2021/opengl-hellowindow/)
 做题记录: [总览](/categories/做题记录/)
 算法学习笔记：[总览](/categories/算法笔记/)
 
