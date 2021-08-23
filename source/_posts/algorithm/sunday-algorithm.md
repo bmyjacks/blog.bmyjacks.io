@@ -3,13 +3,13 @@ title: Sunday 算法快速入门
 tags:
   - 字符串
   - 算法
+categories:
+  - 算法笔记
 keywords:
   - sunday算法
   - 字符串匹配
   - kmp
 description: 十分钟带你学会 Sunday 算法
-categories:
-  - 算法笔记
 sticky: 0
 hide: false
 comments: true

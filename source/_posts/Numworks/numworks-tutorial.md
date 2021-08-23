@@ -44,8 +44,8 @@ date: 2021-01-01 17:23:31
 
 默认的角度选项，例子如下
 $$
-\sin 360° = 0 \\
-\sin 2\pi = 0.1094426 \\
+\sin 360° = 0 \newline
+\sin 2\pi = 0.1094426 \newline
 \sin 400 = 0.6427876
 $$
 
@@ -54,8 +54,8 @@ $$
 #### 弧度
 
 $$
-\sin 360 = 0.9589157 \\
-\sin 2 \pi = 0 \\
+\sin 360 = 0.9589157 \newline
+\sin 2 \pi = 0 \newline
 \sin 400 = -0.8509194
 $$
 
@@ -64,8 +64,8 @@ $$
 #### 百分度
 
 $$
-\sin 360 = -\frac{\sqrt{2} \sqrt{- \sqrt{5} + 5}}{4} \\
-\sin 2 \times pi = 0.09853589 \\
+\sin 360 = -\frac{\sqrt{2} \sqrt{- \sqrt{5} + 5}}{4} \newline
+\sin 2 \times pi = 0.09853589 \newline
 \sin 400 = 0
 $$
 
