@@ -32,7 +32,7 @@ date: 2021-08-24 16:33:23
 ```cpp
 const uint32_t MAX_N = 1e5;
 
-uint32_t doubleEndedStack[MAX_N];
+int32_t doubleEndedStack[MAX_N];
 ```
 ### 初始化
 初始化时需要将左侧的栈顶初始化为 $-1$，将右侧的栈顶初始化为数组的尾部 $MAX\_N$
