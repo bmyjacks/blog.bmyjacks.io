@@ -650,8 +650,8 @@ isso: # <data_isso>
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
 rating:
-  enable: false
-  id:     # <app_id>
+  enable: true
+  id:     23310 # <app_id>
   color:  "#fc6423"
 
 # AddThis Share. See: https://www.addthis.com
