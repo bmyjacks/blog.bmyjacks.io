@@ -182,7 +182,7 @@ toc:
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
   expand_all: false
   # Maximum heading depth of generated toc.
-  max_depth: 6
+  max_depth: 4
 
 
 # ---------------------------------------------------------------
@@ -258,11 +258,13 @@ tag_icon: true
 # Front-matter variable (unsupport animation).
 reward_settings:
   # If true, a donate button will be displayed in every article by default.
-  enable: false
+  enable: true
   animation: false
   #comment: Buy me a coffee
 
 reward:
+  爱发电: /donate/qrcode_afdian.net.png
+  Ko-fi: /donate/qrcode_ko-fi.com.png
   #wechatpay: /images/wechatpay.png
   #alipay: /images/alipay.png
   #paypal: /images/paypal.png
