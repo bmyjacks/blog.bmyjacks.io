@@ -17,7 +17,7 @@ copyright: false
 
 ## 内容分类
 
-最新博文: [FHQ Treap 学习笔记](/data-structure/fhq-treap/)
+最新博文: [单调队列学习笔记](/data-structure/monotonic-queue/)
 数据结构学习笔记：[总览](/categories/数据结构/)
 做题记录: [总览](/categories/做题记录/)
 算法学习笔记：[总览](/categories/算法笔记/)
