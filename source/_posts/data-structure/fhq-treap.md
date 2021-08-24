@@ -306,6 +306,9 @@ int get_successor(int x) {
 在每一次对子树进行修改之后需要进行`update`，否则会遇到一些奇奇怪怪的bug（有可能样例并未存在这种bug，当然对拍是个好东西）。
 {% endnote %}
 
+## 时间复杂度
+巨坑待填
+
 ## 最后有亿些比较简单的练习
 * [洛谷 P3369 【模板】普通平衡树](https://www.luogu.com.cn/problem/P3369)
 * [洛谷 P6136 【模板】普通平衡树（数据加强版）](https://www.luogu.com.cn/problem/P6136)

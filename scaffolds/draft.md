@@ -10,3 +10,7 @@ comments: true
 katex: false
 sitemap: true
 ---
+
+{% note info %}
+本文章最后更新日期为：
+{% endnote %}
