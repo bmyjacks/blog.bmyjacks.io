@@ -150,6 +150,72 @@ ans_{max}: 3 \quad 3 \quad 5 \quad 5 \quad 6 \quad 7 \newline
 ans_{min}: -1 \quad -3 \quad -3 \quad -3 \quad 3 \quad 3
 $$
 
+code：
+```cpp
+#include <deque>
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+class Num {
+ public:
+  int32_t id, val;
+
+  Num(const int32_t id, const int32_t val) {
+    this->id = id;
+    this->val = val;
+  }
+};
+
+int32_t n, k;
+deque<Num> deq[2];
+vector<int32_t> ans[2];
+
+int main() {
+  cin >> n >> k;
+
+  Num tmp = Num(0, 0);
+  for (int32_t i = 1, x; i <= n; ++i) {
+    cin >> x;
+    tmp = Num(i, x);
+    while (deq[0].size() && x >= deq[0].back().val) {
+      deq[0].pop_back();
+    }
+    while (deq[1].size() && x <= deq[1].back().val) {
+      deq[1].pop_back();
+    }
+
+    deq[0].push_back(tmp);
+    deq[1].push_back(tmp);
+
+    while (i - k >= deq[0].front().id) {
+      deq[0].pop_front();
+    }
+    while (i - k >= deq[1].front().id) {
+      deq[1].pop_front();
+    }
+
+    if (i >= k) {
+      ans[0].push_back(deq[1].front().val);
+      ans[1].push_back(deq[0].front().val);
+    }
+  }
+
+  for (auto i : ans[0]) {
+    cout << i << ' ';
+  }
+  cout << endl;
+  for (auto i : ans[1]) {
+    cout << i << ' ';
+  }
+  cout << endl;
+
+  return 0;
+}
+
+```
+
 什么？神犇你说太简单了？那么来点更刺激的行不行？
 ## 二维滑动窗口
 （浅坑，待填）
