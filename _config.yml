@@ -111,7 +111,7 @@ symbols_count_time:
   total_symbols: true
   total_time: true
   awl: 2
-  wpm: 150
+  wpm: 100
 
 search:
   path: search.xml

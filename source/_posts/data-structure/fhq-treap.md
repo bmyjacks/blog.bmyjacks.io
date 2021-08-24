@@ -48,15 +48,16 @@ FHQ Treap支持以下操作：
 * 查询 $x$ 的排名
 * 查询 $x$ 的前驱（最大的小于 $x$ 的数）
 * 查询 $x$ 的后继（最小的大于 $x$ 的数）
+* 区间翻转（本文暂时不涉及）
 * 可持久化（本文暂时不涉及）
 
 普通Treap可以干的活FHQ Treap也可以！
 
 ## FHQ Treap的主要思想
 ### 组成部分
-节点、节点数值、节点左右儿子、随机权值、子树大小、目前节点总数量。
+节点、节点数值、节点左右儿子、随机权值、子树大小、目前节点总数量、FHQ Treap的根节点。
 ```cpp
-node val[node] son[node][0] son[node][1] rnd[node] treeSize[node] cnt
+node, val[node], son[node][0], son[node][1], rnd[node], treeSize[node], cnt, root
 ```
 
 ### 更新
@@ -113,9 +114,9 @@ void split(int node, int y, int &left, int &right) {
 }
 ```
 
-#### 根据排名进行分裂
-同样的，`void split(int node, int k, int &left, int &right)`为排名分裂函数（好像就一个字母的区别）。
-函数中的`k`代表根据第`k`名来进行分裂，将排名前`k`个分裂进入`left`，其他的分入`right`。
+#### 根据子树大小进行分裂
+同样的，`void split(int node, int k, int &left, int &right)`为子树大小分裂函数（好像就一个字母的区别）。
+函数中的`k`代表根据前`k`个来进行分裂，将前`k`个分裂进入`left`，其他的分入`right`。
 
 步骤：
 1. 同样判断`node`是否存在。
@@ -157,6 +158,12 @@ void split(int node, int k, int &left, int &right) {
 3. 否则将`x`合并到`y`的左子树去。
 4. 记得更新`x`和`y`。
 
+{% note info 为什么要基于随机权值？ %}
+首先需要明白的是，在Treap中，左儿子的值一定小于等于本身的值，而合并时的随机权值决定的只是整个Treap的结构。
+
+为了保证整棵树趋于平衡（不然也不会叫平衡树了），我们就需要对每一个节点赋予一定的权值，这个权值与本身的值并没有必然联系，但可以保证我们整个Treap趋于平衡。这也是我们不在merge中直接随机分配的原因。
+{% endnote %}
+
 
 
 为了使用方便，我们将合并起来的两棵树的根节点作为合并函数的返回值（优点大大的有）。
@@ -190,6 +197,25 @@ rnd[node] = rng() % std::numeric_limits<int>::max();
 ```
 
 至于为什么要取模，因为曾经被溢出支配。
+
+### 查询x的排名
+为了获取 $x$ 的排名，我们需要将整棵Treap分为两部分，左子树小于等于 $x - 1$，右子树自然就是大于等于 $x$ 的了。
+之后我们获取左子树的大小再 $+1$ 就是 $x$ 在整个Treap中的排名了！
+
+{% note info 为什么不从 $x$ 进行分裂？ %}
+如果分裂时选择将小于等于 $x$ 的分到左子树中，那么如果存在多个 $x$ 的情况下我们就无法知道第一个 $x$ 的排名，同时排名也定义为比 $x$ 小的数字个数 $+1$，那么我们就可以直接按照定义来进行分裂。
+{% endnote %}
+
+```cpp
+int get_x_k_th(int x) {
+  int left, right, kth;
+  split(root, x - 1, left, right);
+  kth = treeSize[left] + 1;
+  root = merge(left, right);
+  return kth;
+}
+```
+如果Treap里的数**各不相同**，那么就可以联合数值分裂来打败子树大小分裂了！
 
 ## 其他的操作
 有了以上的几种函数，我们就可以进行一些其他的操作了。
@@ -230,16 +256,6 @@ void eraser(int x) {
 ```
 其实就是合并的时候不把`x`合并就好了。
 
-### 查询x的排名
-```cpp
-int get_x_k_th(int x) {
-  int left, right, kth;
-  split(root, x - 1, left, right);
-  kth = treeSize[left] + 1;
-  root = merge(left, right);
-  return kth;
-}
-```
 
 ### 查询排名为k的数
 ```cpp
@@ -275,6 +291,12 @@ int get_successor(int x) {
   return successor;
 }
 ```
+
+{% note warning %}
+## 注意事项
+在每一次对子树进行修改之后需要进行`update`，否则会遇到一些奇奇怪怪的bug（有可能样例并未存在这种bug，当然对拍是个好东西）。
+{% endnote %}
+
 ## 最后有亿些比较简单的练习
 * [洛谷 P3369 【模板】普通平衡树](https://www.luogu.com.cn/problem/P3369)
 * [洛谷 P6136 【模板】普通平衡树（数据加强版）](https://www.luogu.com.cn/problem/P6136)
