@@ -17,7 +17,7 @@ date: 2021-08-24 19:31:13
 ---
 
 {% note info %}
-本文章最后更新日期为：2021-08-24
+本文章最后更新日期为：2021-08-25
 {% endnote %}
 
 ## 单调队列是什么
@@ -227,8 +227,10 @@ int main() {
 ## 时间复杂度的小小说明
 什么？你说`for`里套了一个`while`复杂度就是 $O(n^{2})$ 了？ 非也非也。
 `deque`中的数是我们之前所添加进来的，也就是说每一个数只会进入deque中一次，所以只要`while`或者不在 $k$ 的范围内了就会被弹出。
-所以即使`while`在`for`里，单调队列的时间复杂度依然是 $O(n)$！
+所以即使`while`在`for`里，单调队列的时间复杂度依然是 $O(n)$ 。
 
 ## 最后再来亿点点练习
 * [洛谷 P1886 滑动窗口 /【模板】单调队列](https://www.luogu.com.cn/problem/P1886)
 * [洛谷 P1440 求m区间内的最小值](https://www.luogu.com.cn/problem/P1440)
+* [洛谷 P2032 扫描](https://www.luogu.com.cn/problem/P2032)
+* [洛谷 P2251 质量检测](https://www.luogu.com.cn/problem/P2251)
