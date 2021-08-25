@@ -6,7 +6,13 @@
     },
     {
       "src": "/(.*)",
-      "headers": {"strict-transport-security": "max-age=63072000; includeSubDomains; preload"},
+      "headers": {
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Frame-Options": "DENY",
+        "Cache-Control": "max-age=0, s-maxage=86400"
+      },
       "continue": true
     }
   ]
