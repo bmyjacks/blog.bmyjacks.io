@@ -57,7 +57,7 @@ $$
 code（以最大值为例）：
 ```cpp
 for (int32_t p = 1; p <= (int32_t)std::log2(MAX_N); ++p) {
-  for (int32_t i = 1; i + (1 << p) <= n; ++i) {
+  for (int32_t i = 1; i + (1 << p) <= n + 1; ++i) {
     st[i][p] = std::max(st[i][p - 1], st[i + (1 << (p - 1))][p - 1]);
   }
 }
