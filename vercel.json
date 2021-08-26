@@ -11,7 +11,7 @@
         "X-Content-Type-Options": "nosniff",
         "X-XSS-Protection": "1; mode=block",
         "X-Frame-Options": "DENY",
-        "Cache-Control": "max-age=0, s-maxage=86400"
+        "Cache-Control": "max-age=60, s-maxage=86400"
       },
       "continue": true
     }
