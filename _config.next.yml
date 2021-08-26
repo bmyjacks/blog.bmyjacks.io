@@ -285,7 +285,7 @@ related_posts:
   title: 向您推荐的文章 # Custom header, leave empty to use the default one
   display_in_home: false
   params:
-    maxCount: 5
+    maxCount: 7
     #PPMixingRate: 0.0
     #isDate: false
     #isImage: false
@@ -346,7 +346,7 @@ text_align:
   mobile: justify
 
 # Reduce padding / margin indents on devices with narrow width.
-mobile_layout_economy: false
+mobile_layout_economy: true
 
 # Android Chrome header panel color ($brand-bg / $headband-bg => $black-deep).
 android_chrome_color: "#222"
@@ -378,7 +378,7 @@ back2top:
   # Back to top in sidebar.
   sidebar: true
   # Scroll percent label in b2t button.
-  scrollpercent: true
+  scrollpercent: false
 
 # Reading progress bar
 reading_progress:
@@ -420,7 +420,7 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: true
+  enable: false
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
   host: https://fonts.googleapis.com
@@ -553,7 +553,7 @@ quicklink:
   # Default (true) will initialize quicklink after the load event fires.
   delay: true
   # Custom a time in milliseconds by which the browser must execute prefetching.
-  timeout: 2000
+  timeout: 3000
   # Default (true) will attempt to use the fetch() API if supported (rather than link[rel=prefetch]).
   priority: true
 
@@ -573,7 +573,7 @@ comments:
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
-  lazyload: false
+  lazyload: true
   # Modify texts or order for any navs, here are some examples.
   nav:
     #disqus:
@@ -653,7 +653,7 @@ isso: # <data_isso>
 # To get your ID visit https://widgetpack.com
 rating:
   enable: true
-  id:     23310 # <app_id>
+  id:     23310
   color:  "#fc6423"
 
 # AddThis Share. See: https://www.addthis.com
@@ -669,7 +669,7 @@ add_this_id:
 # Google Analytics
 # See: https://analytics.google.com
 google_analytics:
-  tracking_id: G-NNT6Z2PHMF # <app_id>
+  tracking_id: G-NNT6Z2PHMF
   # By default, NexT will load an external gtag.js script on your site.
   # If you only need the pageview feature, set the following option to true to get a better performance.
   only_pageview: false
@@ -711,12 +711,12 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # For more information: http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
-  enable: false
-  total_visitors: false
+  enable: true
+  total_visitors: true
   total_visitors_icon: fa fa-user
-  total_views: false
+  total_views: true
   total_views_icon: fa fa-eye
-  post_views: false
+  post_views: true
   post_views_icon: far fa-eye
 
 
