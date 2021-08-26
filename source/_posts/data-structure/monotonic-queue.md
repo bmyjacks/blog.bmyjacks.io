@@ -245,10 +245,10 @@ int main() {
 
 我们需要在一个二维的矩阵中计算最大值与最小值，显然可以使用滑动窗口来解决，但是现在还不是说“就这？”的时候，我们仍然需要仔细思考这个二维的滑动窗口问题。
 
-如果将一维的模版套在滑动窗口上你会发现这是行不通的。
+如果将一维的滑动窗口模版套上你会发现这是行不通的。
 
 {% note info 为什么行不通？ %}
-
+当我们直接使用一维的模版时，每一个元素不仅仅进入队列中一次，而是多次进入队列（当需要更换行数，比如从第二行到第三行时），导致性能下降。
 {% endnote %}
 
 经过我们的苦思冥想，终于发现：我们并不需要直接进行二维的滑动窗口，一维一维的做不就行了？
@@ -289,12 +289,91 @@ $$
 \end{matrix}
 $$
 
+将样例的进行每一行的单调队列处理之后的结果：
+$$
+max_{row_{i, j}} \gets \max_{x \in \left(i - n, i\right]}\left(num_{x, j}\right)
+
+\newline
+
+max_{row}: \quad
+\begin{matrix}
+	0 & 2 & 5 & 6 \\
+	0 & 17 & 17 & 16 \\
+	0 & 17 & 17 & 2 \\
+	0 & 10 & 10 & 2 \\
+	0 & 2 & 2 & 2
+\end{matrix}
+$$
+
+$$
+max_{row_{i, j}} \gets \min_{x \in \left(i - n, i\right]}\left(num_{x, j}\right)
+
+\newline
+
+min_{row}: \quad
+\begin{matrix}
+	0 & 1 & 2 & 5 \\
+	0 & 0 & 16 & 0 \\
+	0 & 16 & 2 & 1 \\
+	0 & 2 & 2 & 1 \\
+	0 & 1 & 2 & 2
+\end{matrix}
+$$
+
+在此基础上构建每一列的滑动窗口：
+$$
+max_{column_{i, j}} \gets \max_{x \in \left(j - n, j\right]}\left(max_{row_{i, x}}\right)
+
+\newline
+
+max_{column}: \quad
+\begin{matrix}
+	0 & 0 & 0 & 0 \\
+	0 & 17 & 17 & 16 \\
+	0 & 17 & 17 & 16 \\
+	0 & 17 & 17 & 2 \\
+	0 & 10 & 10 & 2
+\end{matrix}
+$$
+
+$$
+min_{column_{i, j}} \gets \min_{x \in \left(j - n, j\right]}\left(min_{row_{i, x}}\right)
+
+\newline
+
+min_{column}: \quad
+\begin{matrix}
+	0 & 0 & 0 & 0 \\
+	0 & 0 & 2 & 0 \\
+	0 & 0 & 2 & 0 \\
+	0 & 2 & 2 & 1 \\
+	0 & 1 & 2 & 1
+\end{matrix}
+$$
+
+所以`ans`的结果：
+$$
+ans_{i,j} \gets max_{column_{i, j}} - min_{column_{i, j}}
+
+\newline
+
+ans: \quad
+\begin{matrix}
+	0 & 0 & 0 & 0 \\
+	0 & 17 & 15 & 16 \\
+	0 & 17 & 15 & 16 \\
+	0 & 15 & 15 & 1 \\
+	0 & 9 & 8 & 1
+\end{matrix}
+$$
+
+
 所以二维滑动窗口简要步骤如下：
 
 1. 先对二维的其中一维进行滑动窗口处理。
 2. 接着在另一维对已经处理过的那一维进行再次处理。
 
-code（考场写的，可能会有点难看）:
+code：
 
 ```cpp
 #include <climits>
