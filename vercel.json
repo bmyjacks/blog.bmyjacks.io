@@ -13,7 +13,7 @@
         "X-Frame-Options": "DENY",
         "Cache-Control": "max-age=300, s-maxage=604800",
         "Referrer-Policy": "strict-origin-when-cross-origin",
-        "Content-Security-Policy": "default-src https: 'unsafe-inline'"
+        "content-security-policy-report-only": "frame-ancestors 'self'; block-all-mixed-content; default-src 'self'; script-src 'self' 'report-sample'; style-src 'self' 'report-sample'; object-src 'none'; frame-src 'self'; child-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; prefetch-src 'self'; worker-src 'self'; report-uri https://gate.rapidsec.net/g/r/csp/24da6fcf-3864-4b7e-9296-b9a4ceea9ffc/0/0/3?sct=ea641162-5763-4d92-ba05-956e3a864321&dpos=report"
       },
       "continue": true
     }
