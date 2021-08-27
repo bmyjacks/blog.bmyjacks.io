@@ -414,6 +414,10 @@ int main() {
 }
 ```
 
+## 带权并查集
+
+以[洛谷 P1196 [NOI2002] 银河英雄传说](https://www.luogu.com.cn/problem/P1196)为例。
+
 ## 亿些练习
 
 - [洛谷 P3367 【模板】并查集](https://www.luogu.com.cn/problem/P3367)
