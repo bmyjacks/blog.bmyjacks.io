@@ -455,7 +455,7 @@ font:
 
   # Font settings for <code> and code blocks.
   codes:
-    external: false
+    external: true
     family: JetBrains Mono
 
 
