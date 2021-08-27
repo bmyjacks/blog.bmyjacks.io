@@ -22,7 +22,7 @@ date: 2021-08-26 10:04:30
 
 ## 并查集是什么
 
-**并查集**为一种树型的数据结构。用于处理一些不相交集合（disjoint sets）的合并以及查询问题。
+**并查集**为一种树型的数据结构。用于处理一些**不相交集合**（disjoint sets）的**合并**以及**查询**问题。
 
 ## 并查集能干什么
 
@@ -253,6 +253,166 @@ void merge(const uint32_t x, const uint32_t y) {
 我们在合并两个帮派时采用了“合并其中一个的最大头目到另一个帮派里”的方法，如果我们将两个帮派的最大头目合并起来是不是就会更快了呢？还顺便进行了路径压缩。
 
 {% endnote %}
+
+## 扩展域并查集（种类并查集）
+
+以[洛谷 P2024 [NOI2001] 食物链](https://www.luogu.com.cn/problem/P2024)为例，我们需要**维护两种关系**：“同类关系”与“敌人关系”。
+
+而我们需要求出的是所有 $n$ 个动物所说的 $k$ 句话中有几句话是假的。
+
+由于需要维护关系，我们自然想到使用并查集来维护这两种关系。但是普通的并查集无法同时维护两种关系，于是**扩展域并查集**诞生了。
+
+$x$ 与 $y$ 的关系无非就三种：$x$ 与 $y$ 是同类， $x$ 被 $y$ 吃，$x$ 吃 $y$。
+
+所以我们将`root`开到原来的 $3$ 倍。
+
+$$
+\begin{cases}
+	root_{x}\text{ 与 }x\text{ 是同类}, & x \in \left[1, n\right] \\
+	root_{x}\text{ 被 }x\text{ 吃}, & x \in \left[n + 1, 2n\right] \\
+	root_{x}\text{ 吃 }x, & x \in \left[2n + 1, 3n\right]
+\end{cases}
+$$
+
+那么对于每一个动物 $x$ 就有：
+
+$$
+\forall x \in \left[1, n\right]
+\begin{cases}
+	root_{x}\text{ 表示与 }x\text{ 是同类} \\
+	root_{x + n}\text{ 是 }x\text{ 的猎物} \\
+	root_{x + 2n}\text{ 吃 }x
+\end{cases}
+$$
+
+则可以得到以下维护方案：
+
+- 当所说的话为真话时，若 $x$ 与 $y$ 为同类，那么：
+
+  $$
+  merge(x, y) \\
+  merge(x + n, y + n) \\
+  merge(x + 2n, y + 2n)
+  $$
+
+- 若 $x$ 吃 $y$，那么：
+  $$
+  merge(x, y + 2n) \\
+  merge(y, x + n) \\
+  merge(x + 2n, y + n)
+  $$
+
+{% note info 为什么是这些维护方案？ %}
+
+通过题意我们可以知道：
+
+- **如果两个动物是同类的，那么他们的猎物，天敌同样是一类的。**
+- **天敌的天敌为自己的猎物。**
+- **猎物的猎物为自己的天敌。**
+
+所以在合并的时候需要将自己的天敌与猎物同时进行处理。
+
+{% endnote %}
+
+{% note info 三个集合之间的关系到底是怎样的？ %}
+
+$$
+\forall x \in \left[1, n\right]
+\begin{cases}
+	root_{x}\text{ 为 }x\text{ 的同类} \\
+	root_{x + n}\text{ 为 }x\text{ 的猎物} \\
+	root_{x + 2n}\text{ 为 }x\text{ 的天敌} \\
+	root_{x}\text{ 为 }x + n\text{ 的天敌} \\
+	root_{x + n}\text{ 为 }x + n\text{ 的同类} \\
+	root_{x + 2n}\text{ 为 }x + n\text{ 的猎物} \\
+	root_{x}\text{ 为 }x + 2n\text{ 的猎物} \\
+	root_{x + n}\text{ 为 }x + 2n\text{ 的天敌} \\
+	root_{x + 2n}\text{ 为 }x + 2n\text{ 的同类} \\
+\end{cases}
+$$
+
+{% endnote %}
+
+code:
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+const uint32_t MAX_N = 5e4 + 10;
+
+uint32_t N = 0, K = 0;
+uint32_t root[MAX_N * 3], treeSize[MAX_N * 3];
+
+uint32_t findRoot(const uint32_t x) {
+  if (x == root[x]) {
+    return x;
+  } else {
+    return root[x] = findRoot(root[x]);
+  }
+}
+inline void merge(const uint32_t x, const uint32_t y) {
+  uint32_t rx = findRoot(x), ry = findRoot(y);
+
+  if (treeSize[rx] < treeSize[ry]) {
+    root[rx] = ry;
+    treeSize[ry] += treeSize[rx];
+  } else {
+    root[ry] = rx;
+    treeSize[rx] += treeSize[ry];
+  }
+}
+
+inline bool check(const uint32_t x, const uint32_t y) {
+  if (findRoot(x) == findRoot(y)) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+int main() {
+  cin >> N >> K;
+
+  for (uint32_t i = 0; i <= N * 3; ++i) {
+    root[i] = i;
+    treeSize[i] = 1;
+  }
+
+  uint32_t ans = 0;
+  for (uint32_t i = 1, op, x, y; i <= K; ++i) {
+    cin >> op >> x >> y;
+
+    if ((x > N) || (y > N)) {
+      ++ans;
+      continue;
+    }
+
+    if (op == 1) {
+      if (check(x, y + N) || check(x + N, y)) {
+        ++ans;
+      } else {
+        merge(x, y);
+        merge(x + N, y + N);
+        merge(x + 2 * N, y + 2 * N);
+      }
+    } else {
+      if (check(x, y) || check(x, y + N)) {
+        ++ans;
+      } else {
+        merge(x + N, y);
+        merge(x + 2 * N, y + N);
+        merge(x, y + 2 * N);
+      }
+    }
+  }
+
+  cout << ans << endl;
+
+  return 0;
+}
+```
 
 ## 亿些练习
 

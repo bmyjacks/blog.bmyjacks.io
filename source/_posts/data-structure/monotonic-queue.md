@@ -290,6 +290,7 @@ $$
 $$
 
 将样例的进行每一行的单调队列处理之后的结果：
+
 $$
 max_{row_{i, j}} \gets \max_{x \in \left(i - n, i\right]}\left(num_{x, j}\right)
 
@@ -321,6 +322,7 @@ min_{row}: \quad
 $$
 
 在此基础上构建每一列的滑动窗口：
+
 $$
 max_{column_{i, j}} \gets \max_{x \in \left(j - n, j\right]}\left(max_{row_{i, x}}\right)
 
@@ -352,6 +354,7 @@ min_{column}: \quad
 $$
 
 所以`ans`的结果：
+
 $$
 ans_{i,j} \gets max_{column_{i, j}} - min_{column_{i, j}}
 
@@ -366,7 +369,6 @@ ans: \quad
 	0 & 9 & 8 & 1
 \end{matrix}
 $$
-
 
 所以二维滑动窗口简要步骤如下：
 
