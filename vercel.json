@@ -12,8 +12,7 @@
         "X-XSS-Protection": "1; mode=block",
         "X-Frame-Options": "DENY",
         "Cache-Control": "max-age=300, s-maxage=604800",
-        "Referrer-Policy": "strict-origin-when-cross-origin",
-        "content-security-policy-report-only": "frame-ancestors 'self'; block-all-mixed-content; default-src 'self'; script-src 'self' 'report-sample' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://www.google-analytics.com https://ssl.google-analytics.com https://google-analytics.com https://cdnjs.cloudflare.com https://www.googletagmanager.com https://googletagmanager.com https://*.doubleclick.net https://*.googleadservices.com https://*.google.com https://*.googlesyndication.com https://*.googletagservices.com https://static.arc.io https://arc.io https://busuanzi.ibruce.info https://embed.widgetpack.com https://betteruptime.com https://cmp.osano.com https://rf.revolvermaps.com; style-src 'self' 'report-sample' 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com cdnjs.cloudflare.com *.google.com static.arc.io embed.widgetpack.com; object-src *.googlesyndication.com; frame-src 'self' *.doubleclick.net www.googletagmanager.com *.google.com *.googlesyndication.com core.arc.io rf.revolvermaps.com embed.widgetpack.com forms.office.com; child-src 'self' blob: www.googletagmanager.com *.google.com *.doubleclick.net *.googlesyndication.com; img-src data: blob: *; font-src 'self' data: cdn.jsdelivr.net fonts.gstatic.com fonts.googleapis.com cdnjs.cloudflare.com static.arc.io; connect-src *; manifest-src 'self'; base-uri 'self'; form-action 'self' *.google.com; media-src 'self' dai.google.com; prefetch-src 'self' *.googlesyndication.com; worker-src blob: *; report-uri https://gate.rapidsec.net/g/r/csp/24da6fcf-3864-4b7e-9296-b9a4ceea9ffc/0/4/3?sct=ea641162-5763-4d92-ba05-956e3a864321&dpos=report"
+        "Referrer-Policy": "strict-origin-when-cross-origin"
       },
       "continue": true
     }
