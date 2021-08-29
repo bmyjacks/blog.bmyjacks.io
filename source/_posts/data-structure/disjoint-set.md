@@ -418,6 +418,165 @@ int main() {
 
 以[洛谷 P1196 [NOI2002] 银河英雄传说](https://www.luogu.com.cn/problem/P1196)为例。
 
+询问中包含对关系（在不在同一列）的指令，所以我们自然想到使用并查集进行维护。
+
+但同时也会询问两艘战舰（同一列）之间间隔了多少战舰。为了记录这组数据，我们创建两个数组：
+
+* `frontCnt[x]`表示 $x$ 的前面一共有 $frontCnt_{x}$ 艘战舰。
+* `len[x]` 表示包含 $x$ 的战舰的那一列一共有 $len_{x}$ 艘战舰。
+
+### 初始化
+
+$$
+root_{x} \gets x \newline
+frontCnt_{x} \gets 0 \newline
+len_{x} \gets 1
+$$
+
+### 路径压缩
+
+```cpp
+int32_t findRoot(const int32_t x) {
+  if (root.at(x) == x) {
+    return x;
+  }
+
+  int32_t fx = findRoot(root.at(x));
+  frontCnt.at(x) += frontCnt.at(root.at(x));
+  return root.at(x) = fx;
+}
+```
+
+### 合并
+
+```cpp
+void merge(const int32_t &x, const int32_t &y) {
+  int32_t fx = findRoot(x), fy = findRoot(y);
+
+  frontCnt.at(fx) += len.at(fy);
+  root.at(fx) = fy;
+  len.at(fy) += len.at(fx);
+  len.at(fx) = 0;
+}
+```
+
+### 查询
+
+```cpp
+inline void query(const int32_t &x, const int32_t &y) {
+  int32_t fx = findRoot(x), fy = findRoot(y);
+
+  if (fx != fy) {
+    cout << -1 << endl;
+  } else {
+    cout << (abs(frontCnt.at(x) - frontCnt.at(y)) - 1LL) << endl;
+  }
+}
+```
+
+### code
+
+```cpp
+#include <array>
+#include <cctype>
+#include <cmath>
+#include <cstdio>
+#include <iostream>
+
+using namespace std;
+
+inline int32_t read() {
+  int32_t x = 0;
+  char ch = getchar();
+  while (!isdigit(ch)) {
+    ch = getchar();
+  }
+  while (isdigit(ch)) {
+    x = x * 10 + ch - 48;
+    ch = getchar();
+  }
+  return x;
+}
+
+void write(int32_t x) {
+  if (x < 0) {
+    putchar(45);
+    x = -x;
+  }
+  if (x > 9) {
+    write(x / 10);
+  }
+  putchar(x % 10 + 48);
+}
+
+const int32_t MAX_N = 3e4 + 10;
+
+int32_t t;
+array<int32_t, MAX_N> root, frontCnt, len;
+
+void init() {
+  for (int32_t i = 1; i < MAX_N; ++i) {
+    root.at(i) = i;
+    len.at(i) = 1;
+  }
+}
+
+int32_t findRoot(const int32_t x) {
+  if (root.at(x) == x) {
+    return x;
+  }
+
+  int32_t fx = findRoot(root.at(x));
+  frontCnt.at(x) += frontCnt.at(root.at(x));
+  return root.at(x) = fx;
+}
+
+void merge(const int32_t &x, const int32_t &y) {
+  int32_t fx = findRoot(x), fy = findRoot(y);
+
+  frontCnt.at(fx) += len.at(fy);
+  root.at(fx) = fy;
+  len.at(fy) += len.at(fx);
+  len.at(fx) = 0;
+}
+
+inline void query(const int32_t &x, const int32_t &y) {
+  int32_t fx = findRoot(x), fy = findRoot(y);
+
+  if (fx != fy) {
+    write(-1);
+    putchar('\n');
+  } else {
+    write(abs(frontCnt.at(x) - frontCnt.at(y)) - 1LL);
+    putchar('\n');
+  }
+}
+
+int main() {
+  t = read();
+
+  init();
+
+  char op;
+  int32_t x, y;
+  for (int32_t i = 1; i <= t; ++i) {
+    cin >> op;
+    x = read();
+    y = read();
+    if (op == 'M') {
+      merge(x, y);
+    } else {
+      query(x, y);
+    }
+  }
+
+  return 0;
+}
+
+```
+
+
+
 ## 亿些练习
 
 - [洛谷 P3367 【模板】并查集](https://www.luogu.com.cn/problem/P3367)
