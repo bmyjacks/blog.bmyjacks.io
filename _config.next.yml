@@ -30,7 +30,6 @@ custom_file_path:
   #mixin: source/_data/mixins.styl
   #style: source/_data/styles.styl
 
-
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
@@ -43,7 +42,6 @@ scheme: Gemini
 
 # Dark Mode
 darkmode: true
-
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -72,7 +70,6 @@ creative_commons:
   # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
   language: deed.zh
 
-
 # ---------------------------------------------------------------
 # Menu Settings
 # ---------------------------------------------------------------
@@ -99,7 +96,6 @@ menu_settings:
   icons: true
   badges: false
 
-
 # ---------------------------------------------------------------
 # Sidebar Settings
 # See: https://theme-next.js.org/docs/theme-settings/sidebar
@@ -113,7 +109,7 @@ sidebar:
   # Manual define the sidebar width. If commented, will be default for:
   # Muse | Mist: 320
   # Pisces | Gemini: 240
-  #width: 240
+  #width: 300
 
   # Sidebar Display (only for Muse | Mist), available values:
   #  - post    expand on posts automatically. Default.
@@ -185,7 +181,6 @@ toc:
   # Maximum heading depth of generated toc.
   max_depth: 4
 
-
 # ---------------------------------------------------------------
 # Footer Settings
 # See: https://theme-next.js.org/docs/theme-settings/footer
@@ -223,7 +218,6 @@ footer:
     gongan_num:
     # The icon for gongan beian. See: http://www.beian.gov.cn/portal/download
     gongan_icon_url:
-
 
 # ---------------------------------------------------------------
 # Post Settings
@@ -286,7 +280,7 @@ related_posts:
   title: 向您推荐的文章 # Custom header, leave empty to use the default one
   display_in_home: false
   params:
-    maxCount: 7
+    maxCount: 5
     #PPMixingRate: 0.0
     #isDate: false
     #isImage: false
@@ -302,7 +296,6 @@ post_edit:
 # Show previous post and next post in post footer if exists
 # Available values: left | right | false
 post_navigation: left
-
 
 # ---------------------------------------------------------------
 # Custom Page Settings
@@ -329,7 +322,6 @@ calendar:
   showDeleted: false
   singleEvents: true
   maxResults: 250
-
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
@@ -407,7 +399,6 @@ github_banner:
   permalink: https://github.com/yourname
   title: Follow me on GitHub
 
-
 # ---------------------------------------------------------------
 # Font Settings
 # ---------------------------------------------------------------
@@ -434,8 +425,8 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: false
-    family: Noto Sans SC
-    size: 1.125
+    family:
+    size:
 
   # Font settings for site title (.site-title).
   title:
@@ -458,7 +449,6 @@ font:
   codes:
     external: true
     family: JetBrains Mono
-
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -489,7 +479,6 @@ yandex_site_verification:
 # Baidu Webmaster tools verification.
 # See: https://ziyuan.baidu.com/site
 baidu_site_verification:
-
 
 # ---------------------------------------------------------------
 # Third Party Plugins & Services Settings
@@ -554,10 +543,9 @@ quicklink:
   # Default (true) will initialize quicklink after the load event fires.
   delay: true
   # Custom a time in milliseconds by which the browser must execute prefetching.
-  timeout: 3000
+  timeout: 1500
   # Default (true) will attempt to use the fetch() API if supported (rather than link[rel=prefetch]).
   priority: true
-
 
 # ---------------------------------------------------------------
 # Comments Settings
@@ -644,7 +632,6 @@ utterances:
 # For more information: https://posativ.org/isso/
 isso: # <data_isso>
 
-
 # ---------------------------------------------------------------
 # Post Widgets & Content Sharing Services
 # See: https://theme-next.js.org/docs/third-party-services/post-widgets
@@ -654,13 +641,12 @@ isso: # <data_isso>
 # To get your ID visit https://widgetpack.com
 rating:
   enable: true
-  id:     23310
-  color:  "#fc6423"
+  id: 23310
+  color: "#fc6423"
 
 # AddThis Share. See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
 add_this_id:
-
 
 # ---------------------------------------------------------------
 # Statistics and Analytics
@@ -720,7 +706,6 @@ busuanzi_count:
   post_views: true
   post_views_icon: far fa-eye
 
-
 # ---------------------------------------------------------------
 # Search Services
 # See: https://theme-next.js.org/docs/third-party-services/search-services
@@ -746,7 +731,6 @@ local_search:
   unescape: false
   # Preload the search data when the page loads.
   preload: false
-
 
 # ---------------------------------------------------------------
 # Chat Services
@@ -781,7 +765,6 @@ tidio:
 gitter:
   enable: false
   room:
-
 
 # ---------------------------------------------------------------
 # Tags Settings
@@ -822,7 +805,6 @@ mermaid:
   # Available themes: default | dark | forest | neutral
   theme: forest
 
-
 # ---------------------------------------------------------------
 # Animation Settings
 # ---------------------------------------------------------------
@@ -842,10 +824,16 @@ motion:
     sidebar: fadeInUp
 
 # Progress bar in the top during page loading.
-# For more information: https://github.com/rstacruz/nprogress
-nprogress:
+# For more information: https://github.com/CodeByZach/pace
+pace:
   enable: false
-  spinner: true
+  # All available colors:
+  # black | blue | green | orange | pink | purple | red | silver | white | yellow
+  color: blue
+  # All available themes:
+  # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
+  # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
+  theme: minimal
 
 # Canvas ribbon
 # For more information: https://github.com/hustcc/ribbon.js
@@ -855,101 +843,20 @@ canvas_ribbon:
   alpha: 0.6 # The transparency of the ribbon
   zIndex: -1 # The display level of the ribbon
 
+# ---------------------------------------------------------------
+# CDN Settings
+# See: https://theme-next.js.org/docs/advanced-settings/vendors
+# ---------------------------------------------------------------
 
-#! ==============================================================
-#! DO NOT EDIT THE FOLLOWING SETTINGS
-#! UNLESS YOU KNOW WHAT YOU ARE DOING
-#! See: https://theme-next.js.org/docs/advanced-settings/vendors
-#! ==============================================================
-
-# It's recommended to use the same version as in `_vendors.yml` to avoid potential problems.
-# Remember to use the HTTPS protocol of CDN links when you enable HTTPS on your site.
 vendors:
   # The CDN provider of NexT internal scripts.
   # Available values: local | jsdelivr | unpkg | cdnjs
   # Warning: If you are using the latest master branch of NexT, please set `internal: local`
-  internal: jsdelivr
+  internal: local
   # The default CDN provider of third-party plugins.
   # Available values: local | jsdelivr | unpkg | cdnjs
   # Dependencies for `plugins: local`: https://github.com/next-theme/plugins
   plugins: jsdelivr
-
-  # In the following settings, you can specify the CDN link for each plugin.
-  # If left blank, the default CDN provider set by `plugins` option will be used.
-
-  # Anime.js
-  # For more information: https://animejs.com
-  anime:
-
-  # Font Awesome
-  # For more information: https://fontawesome.com
-  fontawesome:
-
-  # Prism
-  prism:
-  prism_autoloader:
-  prism_line_numbers:
-
-  # MathJax
-  mathjax:
-
-  # KaTeX
-  katex:
-  copy_tex_js:
-  copy_tex_css:
-
-  # Pjax
-  pjax:
-
-  # FancyBox
-  jquery:
-  fancybox_js:
-  fancybox_css:
-
-  # Medium-zoom
-  mediumzoom:
-
-  # Lazyload
-  lazyload:
-
-  # Pangu
-  pangu:
-
-  # Quicklink
-  quicklink:
-
-  # DisqusJS
-  disqusjs_js:
-  disqusjs_css:
-
-  # Gitalk
-  gitalk_js:
-  gitalk_css:
-
-  # Firebase
-  firebase_app:
-  firebase_firestore:
-
-  # Algolia Search
-  algolia_search:
-  instant_search:
-
-  # PDF
-  pdfobject:
-
-  # Mermaid
-  mermaid:
-
-  # Animate.css
-  # Warning: motion won't work with animate.css version 3.2.0 or later
-  animate_css:
-
-  # NProgress.js
-  nprogress_js:
-  nprogress_css:
-
-  # Canvas ribbon
-  canvas_ribbon:
 
 # Assets
 # Accelerate delivery of static files using a CDN
