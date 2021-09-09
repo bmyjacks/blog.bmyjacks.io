@@ -424,8 +424,8 @@ font:
 
   # Global font settings used for all elements inside <body>.
   global:
-    external: false
-    family:
+    external: true
+    family: Noto Sans SC
     size:
 
   # Font settings for site title (.site-title).
