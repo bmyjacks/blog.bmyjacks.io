@@ -432,7 +432,7 @@ font:
   title:
     external: true
     family: Caveat
-    size: 2
+    size: 2.2
 
   # Font settings for headlines (<h1> to <h6>).
   headings:
