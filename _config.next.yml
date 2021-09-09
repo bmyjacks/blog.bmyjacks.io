@@ -788,7 +788,7 @@ note:
 tabs:
   transition:
     tabs: false
-    labels: true
+    labels: false
 
 # PDF tag
 # NexT will try to load pdf files natively, if failed, pdf.js will be used.
@@ -833,7 +833,7 @@ pace:
   # All available themes:
   # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
   # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
-  theme: minimal
+  theme: flash
 
 # Canvas ribbon
 # For more information: https://github.com/hustcc/ribbon.js
