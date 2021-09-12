@@ -12,7 +12,8 @@
         "X-XSS-Protection": "1; mode=block",
         "X-Frame-Options": "DENY",
         "Cache-Control": "max-age=300, s-maxage=604800",
-        "Referrer-Policy": "strict-origin-when-cross-origin"
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "X-DNS-Prefetch-Control": "on"
       },
       "continue": true
     }
