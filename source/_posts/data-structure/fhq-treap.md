@@ -246,7 +246,7 @@ void insert(int x) {
 对于**您这种神犇**来说肯定不在话下：
 
 ```cpp
-void eraser(int x) {
+void erase(int x) {
   int left, right, leftRight;
   split(root, x, left, right);
   split(left, x - 1, left, leftRight);
@@ -343,5 +343,3 @@ int get_successor(int x) {
 - [洛谷 P6136 【模板】普通平衡树（数据加强版）](https://www.luogu.com.cn/problem/P6136)
 - [洛谷 P3391 【模板】文艺平衡树](https://www.luogu.com.cn/problem/P3391)
 - [洛谷 P2234 [HNOI2002]营业额统计](https://www.luogu.com.cn/problem/P2234)
-
-加油，奥里给！
