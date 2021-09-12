@@ -415,8 +415,8 @@ font:
 
   # Global font settings used for all elements inside <body>.
   global:
-    external: true
-    family: Noto Sans SC
+    external: false
+    family:
     size:
 
   # Font settings for site title (.site-title).
@@ -534,7 +534,7 @@ quicklink:
   # Default (true) will initialize quicklink after the load event fires.
   delay: true
   # Custom a time in milliseconds by which the browser must execute prefetching.
-  timeout: 1000
+  timeout: 2000
   # Default (true) will attempt to use the fetch() API if supported (rather than link[rel=prefetch]).
   priority: true
 
