@@ -29,5 +29,8 @@
     "hexo-server": "^2.0.0",
     "hexo-theme-next": "^8.7.1",
     "hexo-word-counter": "0.0.3"
+  },
+  "devDependencies": {
+    "prettier": "2.4.0"
   }
 }

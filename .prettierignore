@@ -1,0 +1,11 @@
+node_modules
+public
+
+.github
+.circleci
+
+public
+
+*.js
+*.json
+*.txt
