@@ -4,7 +4,6 @@ public
 .github
 .circleci
 
-public
 
 *.js
 *.json

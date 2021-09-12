@@ -134,47 +134,22 @@ sitemap:
 nofollow:
   enable: true
   exclude:
+    - www.bmyjacks.cn
     - blog.slqwq.cn
     - blog.mbrjun.cn
-    - www.bmyjacks.cn
     - blog.skk.moe
+    - colsrch.cn
 
 neat_enable: true
 neat_html:
   enable: true
   exclude:
 neat_css:
-  enable: false
-  exclude:
+  enable: true
+  exclude: '*.min.css'
 neat_js:
   enable: false
   mangle: false
   output:
   compress:
   exclude:
-
-filter_optimize:
-  enable: true
-  # remove the surrounding comments in each of the bundled files
-  remove_comments: true
-  css:
-    # minify all css files
-    minify: true
-    # bundle loaded css files into one
-    bundle: false
-    # use a script block to load css elements dynamically
-    delivery: true
-    # make specific css content inline into the html page
-    #   - only support the full path
-    #   - default is ['css/main.css']
-    inlines:
-    excludes:
-  js:
-    # minify all js files
-    minify: false
-    # bundle loaded js files into one
-    bundle: false
-    excludes:
-  # set the priority of this plugin,
-  # lower means it will be executed first, default of Hexo is 10
-  priority: 20
