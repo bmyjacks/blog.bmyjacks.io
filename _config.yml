@@ -6,11 +6,11 @@
 title: bmyjacks blog
 subtitle: ""
 description: "The box of ideas"
-keywords: 数据结构,OI,算法竞赛
+keywords: 数据结构, OI, 算法竞赛
 author: bmyjacks
 language: zh-CN
 timezone: "Asia/Shanghai"
-email: bmyjacks@bmyjacks.io
+email: support@bmyjacks.io
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -48,7 +48,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ""
+  tab_replace: "  "
   wrap: true
   hljs: false
 prismjs:
@@ -111,7 +111,7 @@ symbols_count_time:
   total_symbols: true
   total_time: true
   awl: 2
-  wpm: 125
+  wpm: 150
 
 search:
   path: search.xml
@@ -122,19 +122,19 @@ search:
 feed:
   type: atom
   path: atom.xml
-  limit: 50
+  limit: 100
 
 sitemap:
   path: sitemap.xml
   template:
   rel: true
-  tags: true
-  categories: true
+  tags: false
+  categories: false
 
 nofollow:
   enable: true
   exclude:
     - blog.slqwq.cn
     - blog.mbrjun.cn
-    - status.bmyjacks.io
     - www.bmyjacks.cn
+    - blog.skk.moe

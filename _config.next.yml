@@ -85,7 +85,7 @@ menu:
   #categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
   #schedule: https://trello.com/b/bH6s4jT0 || fa fa-calendar
-  sitemap: /sitemap.xml || fa fa-sitemap
+  #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/index.html || fa fa-heartbeat
   服务状态: https://status.bmyjacks.io/ || fas fa-check
   隐私协议: /privacy-policy/ || fas fa-balance-scale
@@ -94,7 +94,7 @@ menu:
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
-  badges: false
+  badges: true
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -142,19 +142,13 @@ site_state: true
 social:
   GitHub: https://github.com/bmyjacks || fab fa-github
   E-Mail: mailto:bmyjacks@bmyjacks.io || fa fa-envelope
-  #Weibo: https://weibo.com/yourname || fab fa-weibo
-  #Google: https://plus.google.com/yourname || fab fa-google
-  #Twitter: https://twitter.com/yourname || fab fa-twitter
-  #FB Page: https://www.facebook.com/yourname || fab fa-facebook
-  #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
-  #YouTube: https://youtube.com/yourname || fab fa-youtube
-  #Instagram: https://instagram.com/yourname || fab fa-instagram
-  #Skype: skype:yourname?call|chat || fab fa-skype
+  Patreon: https://www.patreon.com/bmyjacks || fab fa-patreon
+  爱发电: https://afdian.net/@bmyjacks || fas fa-donate
 
 social_icons:
   enable: true
   icons_only: false
-  transition: false
+  transition: true
 
 # Blog rolls
 links_settings:
@@ -175,7 +169,7 @@ toc:
   # Automatically add list number to toc.
   number: true
   # If true, all words will placed on next lines if header width longer then sidebar width.
-  wrap: false
+  wrap: true
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
   expand_all: false
   # Maximum heading depth of generated toc.
@@ -259,11 +253,7 @@ reward_settings:
 
 reward:
   爱发电: /donate/qrcode_afdian.net.png
-  Ko-fi: /donate/qrcode_ko-fi.com.png
-  #wechatpay: /images/wechatpay.png
-  #alipay: /images/alipay.png
-  #paypal: /images/paypal.png
-  #bitcoin: /images/bitcoin.png
+  Patreon: /donate/qrcode_www.patreon.com.png
 
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
@@ -271,7 +261,7 @@ follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
   #WeChat: /images/wechat_channel.jpg || fab fa-weixin
-  #RSS: /atom.xml || fa fa-rss
+  RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
@@ -280,7 +270,7 @@ related_posts:
   title: 向您推荐的文章 # Custom header, leave empty to use the default one
   display_in_home: false
   params:
-    maxCount: 5
+    maxCount: 7
     #PPMixingRate: 0.0
     #isDate: false
     #isImage: false
@@ -295,7 +285,7 @@ post_edit:
 
 # Show previous post and next post in post footer if exists
 # Available values: left | right | false
-post_navigation: left
+post_navigation: false
 
 # ---------------------------------------------------------------
 # Custom Page Settings
@@ -395,8 +385,8 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
-  permalink: https://github.com/yourname
+  enable: true
+  permalink: https://github.com/bmyjacks
   title: Follow me on GitHub
 
 # ---------------------------------------------------------------
@@ -522,7 +512,7 @@ mediumzoom: false
 
 # Vanilla JavaScript plugin for lazyloading images.
 # For more information: https://apoorv.pro/lozad.js/demo/
-lazyload: false
+lazyload: true
 
 # Pangu Support
 # For more information: https://github.com/vinta/pangu.js
@@ -543,7 +533,7 @@ quicklink:
   # Default (true) will initialize quicklink after the load event fires.
   delay: true
   # Custom a time in milliseconds by which the browser must execute prefetching.
-  timeout: 1500
+  timeout: 1000
   # Default (true) will attempt to use the fetch() API if supported (rather than link[rel=prefetch]).
   priority: true
 
@@ -560,7 +550,7 @@ comments:
   # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
   active: gitalk
   # Setting `true` means remembering the comment system selected by the visitor.
-  storage: true
+  storage: false
   # Lazyload all comment systems.
   lazyload: true
   # Modify texts or order for any navs, here are some examples.
@@ -728,7 +718,7 @@ local_search:
   # Show top n results per article, show all results by setting to -1
   top_n_per_article: 1
   # Unescape html strings to the readable one.
-  unescape: false
+  unescape: true
   # Preload the search data when the page loads.
   preload: false
 
@@ -787,8 +777,8 @@ note:
 # Tabs tag
 tabs:
   transition:
-    tabs: false
-    labels: false
+    tabs: true
+    labels: true
 
 # PDF tag
 # NexT will try to load pdf files natively, if failed, pdf.js will be used.
