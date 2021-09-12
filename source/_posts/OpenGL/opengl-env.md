@@ -19,9 +19,9 @@ katex: false
 
 ## 所需要的工具
 
-* 一台能上网的电脑
-* `Visual Studio`
-* 善于发现问题的心
+- 一台能上网的电脑
+- `Visual Studio`
+- 善于发现问题的心
 
 {% endnote %}
 
@@ -29,7 +29,7 @@ katex: false
 
 据传写`OpenGL`最方便的就是`VS`了，那么我们也跟随大流一起使用`VS`来进行学习。
 
-进入[Visual Studio](https://visualstudio.microsoft.com/)的官方网站并且下载`Visual Studio`(2019或2022均可)
+进入[Visual Studio](https://visualstudio.microsoft.com/)的官方网站并且下载`Visual Studio`(2019 或 2022 均可)
 
 在`Visual Studio Installer`界面选择`Desktop development with C++`点击安装即可完成`Visual Studio`的安装。
 
@@ -41,21 +41,21 @@ katex: false
 
 ### GLFW
 
-进入[GLFW的下载页面](https://www.glfw.org/download.html)，有几种不同的选项提供下载。
+进入[GLFW 的下载页面](https://www.glfw.org/download.html)，有几种不同的选项提供下载。
 
 {% note warning %}
 
-* 当我们需要**最好的性能**时我们需要下载源代码(`Source`)进行编译
-* 为了节省时间，我们使用**预编译**(`pre-compiled`)文件
-* `32-bit`文件可以使编译出来的程序运行在`32-bit`与`64-bit`的计算机上，而`64-bit`的文件编译后的程序仅能运行在`64-bit`的计算机上，下载时请谨慎考虑**目标**的环境，建议使用`32-bit`文件保证兼容性
+- 当我们需要**最好的性能**时我们需要下载源代码(`Source`)进行编译
+- 为了节省时间，我们使用**预编译**(`pre-compiled`)文件
+- `32-bit`文件可以使编译出来的程序运行在`32-bit`与`64-bit`的计算机上，而`64-bit`的文件编译后的程序仅能运行在`64-bit`的计算机上，下载时请谨慎考虑**目标**的环境，建议使用`32-bit`文件保证兼容性
 
 {% endnote %}
 
 ### GLEW
 
-由于`Sourceforge`上的`GLEW`版本`2.1.0`为2017年所发布的且不是最新版本，所以我们使用`GitHub`官方库进行下载，同样使用预编译文件。
+由于`Sourceforge`上的`GLEW`版本`2.1.0`为 2017 年所发布的且不是最新版本，所以我们使用`GitHub`官方库进行下载，同样使用预编译文件。
 
-同样进入[GLEW的发布页面](https://github.com/nigels-com/glew/releases)，选择最新版本`2.2.0`的`glew-2.2.0-win32.zip`下载。
+同样进入[GLEW 的发布页面](https://github.com/nigels-com/glew/releases)，选择最新版本`2.2.0`的`glew-2.2.0-win32.zip`下载。
 
 ## 配置`Visual Studio`
 
@@ -71,7 +71,7 @@ katex: false
 
 ![](https://cdn.bmyjacks.io/img/20210720075010.png?x-oss-process=style/style)
 
-接着将`lib`文件进行复制，`glfw`请复制对应版本的`lib`目录，确保lib下拥有这两个文件。
+接着将`lib`文件进行复制，`glfw`请复制对应版本的`lib`目录，确保 lib 下拥有这两个文件。
 
 ![](https://cdn.bmyjacks.io/img/20210720075236.png?x-oss-process=style/style)
 
@@ -89,7 +89,7 @@ katex: false
 
 ![](https://cdn.bmyjacks.io/img/20210720075906.png?x-oss-process=style/style)
 
-添加刚刚的`include`目录到’额外的include目录下’
+添加刚刚的`include`目录到’额外的 include 目录下’
 
 ![](https://cdn.bmyjacks.io/img/20210720080201.png?x-oss-process=style/style)
 
@@ -110,8 +110,6 @@ opengl32.lib
 glfw3.lib
 glew32s.lib
 ```
-
-
 
 全部修改完成之后回到代码编辑页面复制下面的代码
 
@@ -166,7 +164,7 @@ int main() {
 }
 ```
 
-保存，点击{% button #, F5 %}运行后，就能看到如下窗口 
+保存，点击{% button #, F5 %}运行后，就能看到如下窗口
 
 ![](https://cdn.bmyjacks.io/img/20210720081503.png?x-oss-process=style/style)
 

@@ -18,32 +18,30 @@ sitemap: true
 date: 2021-04-14 09:19:29
 ---
 
-Sunday算法是Daniel M.Sunday于1990年提出的**字符串模式匹配**算法，该算法的核心思想与BM算法类似。
+Sunday 算法是 Daniel M.Sunday 于 1990 年提出的**字符串模式匹配**算法，该算法的核心思想与 BM 算法类似。
 
 {% note info 通过本文章我可以学到什么 %}
 
 1. `Sunday`算法
 
-   * 思想
+   - 思想
 
-   * 实现
+   - 实现
 
-   * 优点
+   - 优点
 
-   * 局限性
-
+   - 局限性
 
 {% endnote %}
 
-
 ## 举个栗子
 
-Sunday算法匹配方式如下：
+Sunday 算法匹配方式如下：
 
-### 例1
+### 例 1
 
-* 令字符串`txt`为`ABCDABA`
-* 令模式串`pat`为`ABA`
+- 令字符串`txt`为`ABCDABA`
+- 令模式串`pat`为`ABA`
 
 则刚开始匹配时`txt`与`pat`左端对齐
 
@@ -61,10 +59,10 @@ Sunday算法匹配方式如下：
 
 此时便匹配成功。
 
-### 例2
+### 例 2
 
-* `txt = ABBBABBABA`
-* `pat = ABA`
+- `txt = ABBBABBABA`
+- `pat = ABA`
 
 初始状态：
 
@@ -74,7 +72,7 @@ Sunday算法匹配方式如下：
 
 ![](https://cdn.bmyjacks.io/img/20210414100219.png?x-oss-process=style/style)
 
-匹配时发现匹配失败了，于是检查下一位 $B$ 在`pat`中出现过，将它与`pat`中最靠近末尾的  $B$ 对齐：
+匹配时发现匹配失败了，于是检查下一位 $B$ 在`pat`中出现过，将它与`pat`中最靠近末尾的 $B$ 对齐：
 
 ![](https://cdn.bmyjacks.io/img/20210414100553.png?x-oss-process=style/style)
 
@@ -86,10 +84,10 @@ Sunday算法匹配方式如下：
 
 ## 算法思想
 
-* 从头开始匹配
-* 匹配到不一样时对比`txt`中整个`pat`长度的下一位是否在`pat`中出现过
-  * 出现则跳到离末端最近
-  * 未出现则整个`pat`跳过
+- 从头开始匹配
+- 匹配到不一样时对比`txt`中整个`pat`长度的下一位是否在`pat`中出现过
+  - 出现则跳到离末端最近
+  - 未出现则整个`pat`跳过
 
 ## 时间复杂度
 

@@ -11,7 +11,7 @@ sitemap: false
 copyright: false
 ---
 
-## 欢迎来到bmyjacks的博客
+## 欢迎来到 bmyjacks 的博客
 
 在这里，你能看到一些新奇有趣的教程，请慢慢阅读！
 

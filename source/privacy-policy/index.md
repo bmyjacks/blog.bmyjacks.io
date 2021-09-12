@@ -7,7 +7,7 @@ katex: false
 ---
 
 {% note info %}
-最后更新时间：2021年08月03日
+最后更新时间：2021 年 08 月 03 日
 {% endnote %}
 
 本隐私政策描述了我们在您使用服务时收集、使用和披露您的信息的政策和程序，并告诉您您的隐私权以及法律如何保护您。我们使用您的个人数据来提供和改进服务。 使用本服务，即表示您同意根据本隐私政策收集和使用信息。
@@ -18,18 +18,18 @@ katex: false
 
 就本隐私政策而言：
 
-* **帐户**是指为您创建的唯一帐户，用于访问我们的服务或我们服务的一部分。
-* **公司**（在本协议中称为“我们”或“我们的”）是指 bmyjacks group。
-* **Cookie**是网站放置在您的计算机、移动设备或任何其他设备上的小文件，其中包含您在该网站上的浏览历史记录的详细信息以及其多种用途。
-* **国家**指：中华人民共和国。
-* **设备**是指可以访问服务的任何设备，例如计算机、手机或数字平板电脑。
-* **个人数据**是与已识别或可识别个人相关的任何信息。
-* **服务**是指此网站。
-* **服务提供商**是指代表公司处理数据的任何自然人或法人。它是指受雇于公司以促进服务、代表公司提供服务、执行与服务相关的服务或协助公司分析如何使用服务的第三方公司或个人。
-* **第三方社交媒体服务**是指用户可以通过其登录或创建帐户以使用服务的任何网站或任何社交网络网站。
-* **使用数据**是指自动收集的数据，这些数据要么是通过使用服务生成的，要么是从服务基础架构本身生成的（例如，页面访问的持续时间）。
-* **网站**指bmyjacks blog，可从[www.bmyjacks.cn](https://www.bmyjacks.cn)访问。
-* **您**是指访问或使用服务的个人，或代表该个人访问或使用服务的公司或其他法律实体（如适用）。
+- **帐户**是指为您创建的唯一帐户，用于访问我们的服务或我们服务的一部分。
+- **公司**（在本协议中称为“我们”或“我们的”）是指 bmyjacks group。
+- **Cookie**是网站放置在您的计算机、移动设备或任何其他设备上的小文件，其中包含您在该网站上的浏览历史记录的详细信息以及其多种用途。
+- **国家**指：中华人民共和国。
+- **设备**是指可以访问服务的任何设备，例如计算机、手机或数字平板电脑。
+- **个人数据**是与已识别或可识别个人相关的任何信息。
+- **服务**是指此网站。
+- **服务提供商**是指代表公司处理数据的任何自然人或法人。它是指受雇于公司以促进服务、代表公司提供服务、执行与服务相关的服务或协助公司分析如何使用服务的第三方公司或个人。
+- **第三方社交媒体服务**是指用户可以通过其登录或创建帐户以使用服务的任何网站或任何社交网络网站。
+- **使用数据**是指自动收集的数据，这些数据要么是通过使用服务生成的，要么是从服务基础架构本身生成的（例如，页面访问的持续时间）。
+- **网站**指 bmyjacks blog，可从[www.bmyjacks.cn](https://www.bmyjacks.cn)访问。
+- **您**是指访问或使用服务的个人，或代表该个人访问或使用服务的公司或其他法律实体（如适用）。
 
 ## 收集和使用您的个人数据
 
@@ -39,8 +39,8 @@ katex: false
 
 在使用我们的服务时，我们可能会要求您向我们提供某些可用于联系或识别您的个人身份信息。 个人身份信息可能包括但不限于：
 
-* Email 地址
-* 使用数据
+- Email 地址
+- 使用数据
 
 #### 使用数据
 
@@ -56,9 +56,9 @@ katex: false
 
 本网站允许您通过以下第三方社交媒体服务创建帐户并登录以使用本服务：
 
-* Google
-* GitHub
-* Microsoft
+- Google
+- GitHub
+- Microsoft
 
 如果您决定通过第三方社交媒体服务注册或以其他方式授予我们访问权限，我们可能会收集已与您的第三方社交媒体服务帐户相关联的个人数据，例如您的姓名、您的电子邮件地址、您的活动或您与该帐户关联的联系人列表。
 
@@ -68,22 +68,22 @@ katex: false
 
 我们使用 Cookies 和类似的跟踪技术来跟踪我们服务上的活动并存储某些信息。 使用的跟踪技术是信标、标签和脚本，用于收集和跟踪信息以及改进和分析我们的服务。 我们使用的技术可能包括：
 
-* **Cookies 或浏览器 Cookies**。Cookie 是放置在您的设备上的小文件。 您可以指示您的浏览器拒绝所有 Cookie 或指示何时发送 Cookie。 但是，如果您不接受 Cookie，您可能无法使用我们服务的某些部分。 除非您已调整您的浏览器设置以拒绝 Cookie，否则我们的服务可能会使用 Cookie。
-* **Web Beacons**。我们服务的某些部分和我们的电子邮件可能包含称为web beacons（也称为clear gifs、 pixel tags和single-pixel gifs）的小型电子文件，例如允许公司计算访问过这些页面的用户或者打开邮件和其他相关的网站统计（例如，记录某个板块的流行度和验证系统和服务器的完整性）。
+- **Cookies 或浏览器 Cookies**。Cookie 是放置在您的设备上的小文件。 您可以指示您的浏览器拒绝所有 Cookie 或指示何时发送 Cookie。 但是，如果您不接受 Cookie，您可能无法使用我们服务的某些部分。 除非您已调整您的浏览器设置以拒绝 Cookie，否则我们的服务可能会使用 Cookie。
+- **Web Beacons**。我们服务的某些部分和我们的电子邮件可能包含称为 web beacons（也称为 clear gifs、 pixel tags 和 single-pixel gifs）的小型电子文件，例如允许公司计算访问过这些页面的用户或者打开邮件和其他相关的网站统计（例如，记录某个板块的流行度和验证系统和服务器的完整性）。
 
-Cookie 可以是“持久性”或“会话性”Cookie。 当您离线时，持久性 Cookie 会保留在您的个人计算机或移动设备上，而一旦您关闭网络浏览器，会话 Cookie 就会被删除。 
+Cookie 可以是“持久性”或“会话性”Cookie。 当您离线时，持久性 Cookie 会保留在您的个人计算机或移动设备上，而一旦您关闭网络浏览器，会话 Cookie 就会被删除。
 
 我们将会话 Cookie 和持久性 Cookie 用于以下目的：
 
-* 必要/基本Cookies：
+- 必要/基本 Cookies：
 
   类型：会话性
 
   管理人：bmyjacks group
 
-  目的：这些 Cookies 对于通过本网站向您提供可用服务以及使您能够使用其某些功能至关重要。 它们有助于对用户进行身份验证并防止对用户帐户的欺诈使用。 没有这些Cookies，您所要求的服务将无法提供，我们仅使用这些Cookies为您提供这些服务。
+  目的：这些 Cookies 对于通过本网站向您提供可用服务以及使您能够使用其某些功能至关重要。 它们有助于对用户进行身份验证并防止对用户帐户的欺诈使用。 没有这些 Cookies，您所要求的服务将无法提供，我们仅使用这些 Cookies 为您提供这些服务。
 
-* **Cookies 政策/通知接受 Cookies**：
+- **Cookies 政策/通知接受 Cookies**：
 
   类型：持久性
 
@@ -91,7 +91,7 @@ Cookie 可以是“持久性”或“会话性”Cookie。 当您离线时，持
 
   目的：这些 Cookies 可识别用户是否已接受在网站上使用 Cookies。
 
-* **功能性 Cookies**：
+- **功能性 Cookies**：
 
   类型：持久性
 
@@ -107,22 +107,22 @@ Cookie 可以是“持久性”或“会话性”Cookie。 当您离线时，持
 
 本公司可将个人资料用于以下目的：
 
-* **提供和维护我们的服务**，包括监控我们服务的使用。
-* **管理您的帐户**：管理您作为服务用户的注册。您提供的个人数据可以让您访问作为注册用户可用的服务的不同功能。
-* **为履行合同**：您购买的产品、物品或服务的购买合同或通过服务与我们签订的任何其他合同的制定、遵守和承诺。
-* **与您联系**：通过电子邮件、电话、短信或其他等效形式的电子通信方式与您联系，例如移动应用程序关于更新的推送通知或与功能、产品或签约服务相关的信息通信，包括安全更新，在必要或合理时执行。
-* **管理您的请求**：参加和管理您向我们提出的请求。
-* **对于业务转让**：我们可能会使用您的信息来评估或进行合并、剥离、重组、重组、解散或以其他方式出售或转让我们的部分或全部资产，无论是作为持续经营还是作为破产、清算、或类似程序，其中我们持有的有关我们服务用户的个人数据属于转移的资产。
-* **用于其他目的**：我们可能会将您的信息用于其他目的，例如数据分析、确定使用趋势、确定我们促销活动的有效性以及评估和改进我们的服务、产品、服务、营销和您的体验。
+- **提供和维护我们的服务**，包括监控我们服务的使用。
+- **管理您的帐户**：管理您作为服务用户的注册。您提供的个人数据可以让您访问作为注册用户可用的服务的不同功能。
+- **为履行合同**：您购买的产品、物品或服务的购买合同或通过服务与我们签订的任何其他合同的制定、遵守和承诺。
+- **与您联系**：通过电子邮件、电话、短信或其他等效形式的电子通信方式与您联系，例如移动应用程序关于更新的推送通知或与功能、产品或签约服务相关的信息通信，包括安全更新，在必要或合理时执行。
+- **管理您的请求**：参加和管理您向我们提出的请求。
+- **对于业务转让**：我们可能会使用您的信息来评估或进行合并、剥离、重组、重组、解散或以其他方式出售或转让我们的部分或全部资产，无论是作为持续经营还是作为破产、清算、或类似程序，其中我们持有的有关我们服务用户的个人数据属于转移的资产。
+- **用于其他目的**：我们可能会将您的信息用于其他目的，例如数据分析、确定使用趋势、确定我们促销活动的有效性以及评估和改进我们的服务、产品、服务、营销和您的体验。
 
 我们可能会在以下情况下共享您的个人信息：
 
-* **与服务提供商**：我们可能会与服务提供商共享您的个人信息，以监控和分析我们服务的使用情况，以便与您联系。
-* **对于业务转让**：我们可能会在与任何合并、出售公司资产、融资或收购我们的全部或部分业务相关或谈判期间向另一家公司共享或转让您的个人信息。
-* **与附属公司**：我们可能会与我们的附属公司共享您的信息，在这种情况下，我们将要求这些附属公司遵守本隐私政策。关联公司包括我们的母公司和任何其他子公司、合资伙伴或我们控制或与我们共同控制的其他公司。
-* **与业务合作伙伴**：我们可能会与我们的业务合作伙伴共享您的信息，以便向您提供某些产品、服务或促销活动。
-* **与其他用户**：当您在公共区域与其他用户共享个人信息或以其他方式进行互动时，该等信息可能会被所有用户查看并可能向外公开传播。如果您与其他用户互动或通过第三方社交媒体服务注册，您在第三方社交媒体服务上的联系人可能会看到您的姓名、个人资料、图片和您的活动描述。同样，其他用户将能够查看您的活动描述、与您交流并查看您的个人资料。
-* **经您同意**：经您同意，我们可能会出于任何其他目的披露您的个人信息。
+- **与服务提供商**：我们可能会与服务提供商共享您的个人信息，以监控和分析我们服务的使用情况，以便与您联系。
+- **对于业务转让**：我们可能会在与任何合并、出售公司资产、融资或收购我们的全部或部分业务相关或谈判期间向另一家公司共享或转让您的个人信息。
+- **与附属公司**：我们可能会与我们的附属公司共享您的信息，在这种情况下，我们将要求这些附属公司遵守本隐私政策。关联公司包括我们的母公司和任何其他子公司、合资伙伴或我们控制或与我们共同控制的其他公司。
+- **与业务合作伙伴**：我们可能会与我们的业务合作伙伴共享您的信息，以便向您提供某些产品、服务或促销活动。
+- **与其他用户**：当您在公共区域与其他用户共享个人信息或以其他方式进行互动时，该等信息可能会被所有用户查看并可能向外公开传播。如果您与其他用户互动或通过第三方社交媒体服务注册，您在第三方社交媒体服务上的联系人可能会看到您的姓名、个人资料、图片和您的活动描述。同样，其他用户将能够查看您的活动描述、与您交流并查看您的个人资料。
+- **经您同意**：经您同意，我们可能会出于任何其他目的披露您的个人信息。
 
 ### 保留您的个人数据
 
@@ -152,11 +152,11 @@ Cookie 可以是“持久性”或“会话性”Cookie。 当您离线时，持
 
 本公司可能会真诚地相信此类行动是必要的，以披露您的个人数据：
 
-* 遵守法律义务
-* 保护和捍卫公司的权利或财产
-* 防止或调查可能与服务有关的不当行为
-* 保护服务用户或公众的人身安全
-* 避免法律责任
+- 遵守法律义务
+- 保护和捍卫公司的权利或财产
+- 防止或调查可能与服务有关的不当行为
+- 保护服务用户或公众的人身安全
+- 避免法律责任
 
 ### 您个人数据的安全
 
@@ -176,7 +176,7 @@ Cookie 可以是“持久性”或“会话性”Cookie。 当您离线时，持
 
 ## DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
 
-*In Short: Yes, if you are a resident of California, you are granted specific rights regarding access to your personal information.*
+_In Short: Yes, if you are a resident of California, you are granted specific rights regarding access to your personal information._
 
 California Civil Code Section 1798.83, also known as the "Shine The Light" law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us using the contact information provided below.
 
@@ -198,33 +198,33 @@ If this definition of "resident" applies to you, we must adhere to certain right
 
 We have collected the following categories of personal information in the past twelve (12) months:
 
-| **Category**                                                 | **Examples**                                                 | **Collected** |
-| :----------------------------------------------------------- | ------------------------------------------------------------ | ------------- |
-| A. Identifiers                                               | Contact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address and account name | YES           |
-| B. Personal information categories listed in the California Customer Records statute | Name, contact information, education, employment, employment history and financial information | YES           |
-| C. Protected classification characteristics under California or federal law | Gender and date of birth                                     | NO            |
-| D. Commercial information                                    | Transaction information, purchase history, financial details and payment information | NO            |
-| E. Biometric information                                     | Fingerprints and voiceprints                                 | YES           |
-| F. Internet or other similar network activity                | Browsing history, search history, online behavior, interest data, and interactions with our and other websites, applications, systems and advertisements | NO            |
-| G. Geolocation data                                          | Device location                                              | YES           |
-| H. Audio, electronic, visual, thermal, olfactory, or similar information | Images and audio, video or call recordings created in connection with our business activities | NO            |
-| I. Professional or employment-related information            | Business contact details in order to provide you our services at a business level, job title as well as work history and professional qualifications if you apply for a job with us | NO            |
-| J. Education Information                                     | Student records and directory information                    | NO            |
-| K. Inferences drawn from other personal information          | Inferences drawn from any of the collected personal information listed above to create a profile or summary about, for example, an individual’s preferences and characteristics | NO            |
+| **Category**                                                                         | **Examples**                                                                                                                                                                                            | **Collected** |
+| :----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| A. Identifiers                                                                       | Contact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address and account name | YES           |
+| B. Personal information categories listed in the California Customer Records statute | Name, contact information, education, employment, employment history and financial information                                                                                                          | YES           |
+| C. Protected classification characteristics under California or federal law          | Gender and date of birth                                                                                                                                                                                | NO            |
+| D. Commercial information                                                            | Transaction information, purchase history, financial details and payment information                                                                                                                    | NO            |
+| E. Biometric information                                                             | Fingerprints and voiceprints                                                                                                                                                                            | YES           |
+| F. Internet or other similar network activity                                        | Browsing history, search history, online behavior, interest data, and interactions with our and other websites, applications, systems and advertisements                                                | NO            |
+| G. Geolocation data                                                                  | Device location                                                                                                                                                                                         | YES           |
+| H. Audio, electronic, visual, thermal, olfactory, or similar information             | Images and audio, video or call recordings created in connection with our business activities                                                                                                           | NO            |
+| I. Professional or employment-related information                                    | Business contact details in order to provide you our services at a business level, job title as well as work history and professional qualifications if you apply for a job with us                     | NO            |
+| J. Education Information                                                             | Student records and directory information                                                                                                                                                               | NO            |
+| K. Inferences drawn from other personal information                                  | Inferences drawn from any of the collected personal information listed above to create a profile or summary about, for example, an individual’s preferences and characteristics                         | NO            |
 
 We may also collect other personal information outside of these categories instances where you interact with us in-person, online, or by phone or mail in the context of:
 
-* Receiving help through our customer support channels;
-* Participation in customer surveys or contests; and
-* Facilitation in the delivery of our Services and to respond to your inquiries.
+- Receiving help through our customer support channels;
+- Participation in customer surveys or contests; and
+- Facilitation in the delivery of our Services and to respond to your inquiries.
 
 #### How do we use and share your personal information?
 
 bmyjacks group collects and shares your personal information through:
 
-* Social media cookies
-* Beacons/Pixels/Tags
-* Social media plugins: "Gitalk" operated by Gitalk organization. We use social media features, such as a 'Like' button, and widgets, such as a 'Share' button on our Website. Such features may process your Internet Protocol (IP) address and track which page you are visiting on our Website. We may place a cookie to enable the feature to work correctly. If you are logged in on a certain social media platform and you interact with a widget or button belonging to that social media platform, this information may be recorded to your profile of such social media platform. To avoid this, you should log out from that social media platform before accessing or using the Website. Social media features and widgets may be hosted by a third party or hosted directly on our Website. Your interactions with these features are governed by the privacy notices of the companies that provide them. By clicking on one of these buttons, you agree to the use of this plugin and consequently the transfer of personal information to the corresponding social media service. We have no control over the essence and extent of these transmitted data as well as their additional processing.
+- Social media cookies
+- Beacons/Pixels/Tags
+- Social media plugins: "Gitalk" operated by Gitalk organization. We use social media features, such as a 'Like' button, and widgets, such as a 'Share' button on our Website. Such features may process your Internet Protocol (IP) address and track which page you are visiting on our Website. We may place a cookie to enable the feature to work correctly. If you are logged in on a certain social media platform and you interact with a widget or button belonging to that social media platform, this information may be recorded to your profile of such social media platform. To avoid this, you should log out from that social media platform before accessing or using the Website. Social media features and widgets may be hosted by a third party or hosted directly on our Website. Your interactions with these features are governed by the privacy notices of the companies that provide them. By clicking on one of these buttons, you agree to the use of this plugin and consequently the transfer of personal information to the corresponding social media service. We have no control over the essence and extent of these transmitted data as well as their additional processing.
 
 More information about our data collection and sharing practices can be found in this privacy notice.
 
@@ -240,10 +240,10 @@ We may use your personal information for our own business purposes, such as for 
 
 bmyjacks group has disclosed the following categories of personal information to third parties for a business or commercial purpose in the preceding twelve (12) months:
 
-* Category A. Identifiers, such as contact details, like your real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address and account name.
-* Category B. Personal information, as defined in the California Customer Records law, such as your name, contact information, education, employment, employment history and financial information.
-* Category E. Biometric information, such as fingerprints and voiceprints.
-* Category G. Geolocation data, such as device location.
+- Category A. Identifiers, such as contact details, like your real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address and account name.
+- Category B. Personal information, as defined in the California Customer Records law, such as your name, contact information, education, employment, employment history and financial information.
+- Category E. Biometric information, such as fingerprints and voiceprints.
+- Category G. Geolocation data, such as device location.
 
 bmyjacks group has not sold any personal information to third parties for a business or commercial purpose in the preceding twelve (12) months. bmyjacks group will not sell personal information in the future belonging to website visitors, users and other consumers.
 
@@ -257,18 +257,18 @@ You can ask for the deletion of your personal information. If you ask us to dele
 
 Depending on the circumstances, you have a right to know:
 
-* whether we collect and use your personal information;
-* the categories of personal information that we collect;
+- whether we collect and use your personal information;
+- the categories of personal information that we collect;
 
-- the purposes for which the collected personal information is used;
+* the purposes for which the collected personal information is used;
 
-- whether we sell your personal information to third parties;
+* whether we sell your personal information to third parties;
 
-- the categories of personal information that we sold or disclosed for a business purpose;
+* the categories of personal information that we sold or disclosed for a business purpose;
 
-- the categories of third parties to whom the personal information was sold or disclosed for a business purpose; and
+* the categories of third parties to whom the personal information was sold or disclosed for a business purpose; and
 
-- the business or commercial purpose for collecting or selling personal information.
+* the business or commercial purpose for collecting or selling personal information.
 
 In accordance with applicable law, we are not obligated to provide or delete consumer information that is de-identified in response to a consumer request or to re-identify individual data to verify a consumer request.
 
@@ -292,7 +292,7 @@ We will only use personal information provided in your request to verify your id
 
 - you may request to opt-out from future selling of your personal information to third parties. Upon receiving a request to opt-out, we will act upon the request as soon as feasibly possible, but no later than 15 days from the date of the request submission.
 
-To exercise these rights, you can contact us by email at support@bmyjacks.io, or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you. 
+To exercise these rights, you can contact us by email at support@bmyjacks.io, or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.
 
 ## 本隐私政策的变更
 
@@ -306,5 +306,4 @@ To exercise these rights, you can contact us by email at support@bmyjacks.io, or
 
 如果您对本隐私政策有任何疑问，您可以联系我们：
 
-* Email：[support@bmyjacks.io](mailto:support@bmyjacks.io?subject=Privacy%20policy%20about%20www.bmyjacks.cn)
-
+- Email：[support@bmyjacks.io](mailto:support@bmyjacks.io?subject=Privacy%20policy%20about%20www.bmyjacks.cn)

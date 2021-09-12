@@ -20,7 +20,6 @@ date: 2021-02-11 16:41:08
 description: 汇集各种jetson nano常用命令及软件
 ---
 
-
 {% note info %}
 
 ## 注意
@@ -65,8 +64,6 @@ sudo python3 -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pip -U
 sudo python3 -m pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-
-
 ## CUDA
 
 由于`CDUA`本身已经随系统安装好了，所以我们只需要导入`CUDA`即可
@@ -104,7 +101,7 @@ sudo make
 输出如下即表明`cuDNN`已成功配置
 
 ```bash
-bmyjacks@Jetson-nano:/usr/src/cudnn_samples_v8/mnistCUDNN$ ./mnistCUDNN 
+bmyjacks@Jetson-nano:/usr/src/cudnn_samples_v8/mnistCUDNN$ ./mnistCUDNN
 Executing: mnistCUDNN
 cudnnGetVersion() : 8000 , CUDNN_VERSION from cudnn.h : 8000 (8.0.0)
 Host compiler version : GCC 7.5.0
@@ -161,7 +158,7 @@ Testing cudnnFindConvolutionForwardAlgorithm ...
 ^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
 ^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
 Resulting weights from Softmax:
-0.0000000 0.9999399 0.0000000 0.0000000 0.0000561 0.0000000 0.0000012 0.0000017 0.0000010 0.0000000 
+0.0000000 0.9999399 0.0000000 0.0000000 0.0000561 0.0000000 0.0000012 0.0000017 0.0000010 0.0000000
 Loading image data/three_28x28.pgm
 Performing forward propagation ...
 Testing cudnnGetConvolutionForwardAlgorithm_v7 ...
@@ -201,11 +198,11 @@ Testing cudnnFindConvolutionForwardAlgorithm ...
 ^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
 ^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
 Resulting weights from Softmax:
-0.0000000 0.0000000 0.0000000 0.9999288 0.0000000 0.0000711 0.0000000 0.0000000 0.0000000 0.0000000 
+0.0000000 0.0000000 0.0000000 0.9999288 0.0000000 0.0000711 0.0000000 0.0000000 0.0000000 0.0000000
 Loading image data/five_28x28.pgm
 Performing forward propagation ...
 Resulting weights from Softmax:
-0.0000000 0.0000008 0.0000000 0.0000002 0.0000000 0.9999820 0.0000154 0.0000000 0.0000012 0.0000006 
+0.0000000 0.0000008 0.0000000 0.0000002 0.0000000 0.9999820 0.0000154 0.0000000 0.0000012 0.0000006
 
 Result of classification: 1 3 5
 
@@ -259,7 +256,7 @@ Testing cudnnFindConvolutionForwardAlgorithm ...
 ^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
 ^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
 Resulting weights from Softmax:
-0.0000001 1.0000000 0.0000001 0.0000000 0.0000563 0.0000001 0.0000012 0.0000017 0.0000010 0.0000001 
+0.0000001 1.0000000 0.0000001 0.0000000 0.0000563 0.0000001 0.0000012 0.0000017 0.0000010 0.0000001
 Loading image data/three_28x28.pgm
 Performing forward propagation ...
 Testing cudnnGetConvolutionForwardAlgorithm_v7 ...
@@ -299,11 +296,11 @@ Testing cudnnFindConvolutionForwardAlgorithm ...
 ^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 6: -1.000000 time requiring 0 memory
 ^^^^ CUDNN_STATUS_NOT_SUPPORTED for Algo 3: -1.000000 time requiring 0 memory
 Resulting weights from Softmax:
-0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000714 0.0000000 0.0000000 0.0000000 0.0000000 
+0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000714 0.0000000 0.0000000 0.0000000 0.0000000
 Loading image data/five_28x28.pgm
 Performing forward propagation ...
 Resulting weights from Softmax:
-0.0000000 0.0000008 0.0000000 0.0000002 0.0000000 1.0000000 0.0000154 0.0000000 0.0000012 0.0000006 
+0.0000000 0.0000008 0.0000000 0.0000002 0.0000000 1.0000000 0.0000154 0.0000000 0.0000012 0.0000006
 
 Result of classification: 1 3 5
 
@@ -377,16 +374,16 @@ bmyjacks@Jetson-nano:/usr/src/tensorrt/bin$ ./sample_mnist
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 [02/11/2021-16:07:20] [I] Output:
-0: 
-1: 
-2: 
-3: 
-4: 
+0:
+1:
+2:
+3:
+4:
 5: **********
-6: 
-7: 
-8: 
-9: 
+6:
+7:
+8:
+9:
 
 &&&& PASSED TensorRT.sample_mnist # ./sample_mnist
 ```
@@ -451,8 +448,3 @@ python3 -m pip install pandas
 ```bash
 python3 -m pip install sklearn
 ```
-
-
-
-
-

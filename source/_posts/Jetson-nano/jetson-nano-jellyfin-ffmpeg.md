@@ -14,7 +14,6 @@ hide: false
 date: 2020-10-02 22:25:55
 ---
 
-
 {% note info %}
 
 ### 信息
@@ -25,13 +24,13 @@ date: 2020-10-02 22:25:55
 
 ## 首先我们看看不使用硬件解码的播放流畅度
 
-使用的`ffmpeg`为jellyfin自带的ffmpeg，并将转码线程数设置为4，其他保持默认。
+使用的`ffmpeg`为 jellyfin 自带的 ffmpeg，并将转码线程数设置为 4，其他保持默认。
 
 ![](https://cdn.bmyjacks.io/img/20201002204342.png?x-oss-process=style/style)
 
 ### HEVC(h265)解码测试
 
- 文件信息![](https://cdn.bmyjacks.io/img/20201002204838.png?x-oss-process=style/style)
+文件信息![](https://cdn.bmyjacks.io/img/20201002204838.png?x-oss-process=style/style)
 
 解码信息
 
@@ -73,7 +72,7 @@ date: 2020-10-02 22:25:55
 
 无需解码即可串流播放
 
-### MPEG2解码测试
+### MPEG2 解码测试
 
 文件信息
 
@@ -89,9 +88,9 @@ date: 2020-10-02 22:25:55
 
 ## 解码性能低下原因解析（可能）
 
-首先使用jellyfin自带的ffmpeg并且不开启硬件解码的情况下调用的是CPU编码，这颗4核`ARMv8`处理器性能可能比较低下，因为嵌入式设备限制性能。下面我们打开硬件解码试试看。
+首先使用 jellyfin 自带的 ffmpeg 并且不开启硬件解码的情况下调用的是 CPU 编码，这颗 4 核`ARMv8`处理器性能可能比较低下，因为嵌入式设备限制性能。下面我们打开硬件解码试试看。
 
-## 使用硬件解码但是继续使用jellyfin自带的ffmpeg播放测试
+## 使用硬件解码但是继续使用 jellyfin 自带的 ffmpeg 播放测试
 
 ## OpenMAX(OMX)测试
 
@@ -105,7 +104,7 @@ date: 2020-10-02 22:25:55
 
 boom！
 
-### NVENC测试
+### NVENC 测试
 
 设置信息
 
@@ -119,11 +118,11 @@ boom！
 
 ![](https://cdn.bmyjacks.io/img/20201002212134.png?x-oss-process=style/style)
 
-GPU占用
+GPU 占用
 
 ![](https://cdn.bmyjacks.io/img/20201002222422.png?x-oss-process=style/style)
 
-### VAAPI测试
+### VAAPI 测试
 
 设置信息
 
@@ -139,7 +138,7 @@ GPU占用
 
 ![](https://cdn.bmyjacks.io/img/20201002212621.png?x-oss-process=style/style)
 
-### Video Toolbox测试
+### Video Toolbox 测试
 
 设置信息
 
@@ -149,11 +148,11 @@ GPU占用
 
 boom！
 
-## 既然使用NVDEC为什么GPU占用为0%
+## 既然使用 NVDEC 为什么 GPU 占用为 0%
 
-首先怀疑的是jellyfin自带的ffmpeg并未对jetson系列的GPU进行适配，决定自行编译ffmpeg试试
+首先怀疑的是 jellyfin 自带的 ffmpeg 并未对 jetson 系列的 GPU 进行适配，决定自行编译 ffmpeg 试试
 
-## 自行编译ffmpeg
+## 自行编译 ffmpeg
 
 ## 首先安装好工具以及以依赖
 
@@ -199,9 +198,7 @@ sudo apt -y install \
 	libx265-dev \
 ```
 
-
-
-## 之后添加nvidia官方给出的jetson ffmpeg库
+## 之后添加 nvidia 官方给出的 jetson ffmpeg 库
 
 新建`/etc/apt/sources.list.d/ffmpeg.list`文件并写入
 
@@ -210,7 +207,7 @@ deb https://repo.download.nvidia.com/jetson/ffmpeg main main
 deb-src https://repo.download.nvidia.com/jetson/ffmpeg main main
 ```
 
-请勿使用仓库自带的ffmpeg，因为使用后无法播放文件，输出如下
+请勿使用仓库自带的 ffmpeg，因为使用后无法播放文件，输出如下
 
 ![](https://cdn.bmyjacks.io/img/20201002213736.png?x-oss-process=style/style)
 
@@ -230,7 +227,7 @@ cd ffmpeg-4.2.2
 
 ## 准备编译
 
-查看jellyfin自带的ffmpeg编译代码
+查看 jellyfin 自带的 ffmpeg 编译代码
 
 ![](https://cdn.bmyjacks.io/img/20201002222459.png?x-oss-process=style/style)
 
@@ -238,7 +235,7 @@ cd ffmpeg-4.2.2
 configuration: --prefix=/usr/lib/jellyfin-ffmpeg --target-os=linux --disable-doc --disable-ffplay --disable-shared --disable-libxcb --disable-sdl2 --disable-xlib --enable-gpl --enable-version3 --enable-static --enable-libfontconfig --enable-fontconfig --enable-gmp --enable-gnutls --enable-libass --enable-libbluray --enable-libdrm --enable-libfreetype --enable-libfribidi --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libwebp --enable-libx264 --enable-libx265 --enable-libzvbi --toolchain=hardened --enable-cross-compile --enable-omx --enable-omx-rpi --arch=arm64 --cross-prefix=/usr/bin/aarch64-linux-gnu-
 ```
 
-查看默认nvidia的ffmpeg编译代码
+查看默认 nvidia 的 ffmpeg 编译代码
 
 ![](https://cdn.bmyjacks.io/img/20201002213736.png?x-oss-process=style/style)
 
@@ -281,7 +278,7 @@ sudo ldconfig
 
 编译完成！
 
-## 使用自己编译的ffmpeg
+## 使用自己编译的 ffmpeg
 
 设置信息
 
@@ -296,6 +293,8 @@ sudo ldconfig
 ？？？WHAT 怎么还是一样的
 
 {% note warning %}
+
 ## 最后失败了
+
 与软解完全一样的速度，如果有哪位大神知道怎么去设置或编译，请在评论区留言，我将不胜感激！
 {% endnote %}

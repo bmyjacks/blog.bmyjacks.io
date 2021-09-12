@@ -8,26 +8,33 @@ keywords: [NexT主题, hexo, 博客, blog, 优化, optimization]
 date: 2020-04-06 11:21:03
 ---
 
+## hexo 自带的`config.yml`优化
 
-## hexo自带的`config.yml`优化
-将原本主题的链接配置文件的第`21-23`行更改为以下文件有助于SEO
+将原本主题的链接配置文件的第`21-23`行更改为以下文件有助于 SEO
+
 ```yml
 url: https://www.bmyjacks.cn #填写您的网站地址
 root: / #填写您的根目录地址
 permalink: :year/:title.html #建议改成这样
 ```
-## NexT主题的`next.yml`优化
+
+## NexT 主题的`next.yml`优化
+
 这一个选项就比较多了，且听我细细道来
 
 ### 打开缓存与最小化
+
 ```yml
 cache:
   enable: true
 
 minify: true
 ```
-### favicon优化
-favicon图标文件最好为压缩过的，并且存放在诸如`阿里云OSS`等
+
+### favicon 优化
+
+favicon 图标文件最好为压缩过的，并且存放在诸如`阿里云OSS`等
+
 ```yml
 favicon:
   small:
@@ -45,10 +52,15 @@ avatar:
   # If true, the avatar will be rotated with the cursor.
   rotated: false
 ```
+
 ## 关闭一些不需要的功能
+
 这种优化方法就因人而异了，请大家根据自己的需要进行选择
+
 ### 关闭动画
+
 关闭动画之后你的网站上就没有过渡动画显示了，请考虑后在选择,将第`820`附近的代码`(819-835)`更改为
+
 ```yml
 motion:
   enable: false
@@ -70,7 +82,9 @@ motion:
 ```
 
 ### 减少不必要的服务
+
 如果您设置了两个评论系统，请您在优化时去掉一个，只留下最合适的那一个，并且进行以下配置`557-574`
+
 ```yml
 # Multiple Comment System Support
 comments:
@@ -94,7 +108,8 @@ comments:
 
 关闭在线聊天，关闭掉如`chatra`的在线聊天系统
 
-### 关闭pace
+### 关闭 pace
+
 ```yml
 pace:
   enable: false
@@ -103,7 +118,9 @@ pace:
   # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
   theme: minimal
 ```
-### 关闭three
+
+### 关闭 three
+
 ```yml
 three:
   enable: false
@@ -111,8 +128,11 @@ three:
   canvas_lines: false
   canvas_sphere: false
 ```
-### 使用CDN
+
+### 使用 CDN
+
 修改`874-986`
+
 ```yml
 vendors:
   # Internal path prefix.

@@ -28,8 +28,6 @@ $$
 \TeX \quad \LaTeX \quad \KaTeX
 $$
 
-
-
 ## 声调/变音/上下标/上下括号/向量
 
 | $a'$ `a'`                     | $\tilde{a}$ `\tilde{a}`                               | $\mathring{g}$ `\mathring{g}`                   |
@@ -51,16 +49,16 @@ $$
 | $\text{\'{a}}$ `\'{a}` | $\text{\~{a}}$ `\~{a}` | $\text{\.{a}}$ `\.{a}` | $\text{\H{a}}$ `\H{a}` |
 | ---------------------- | ---------------------- | ---------------------- | ---------------------- |
 | $\text{\r{a}}$ `\r{a}` | $\text{\={a}}$ `\={a}` | $\text{\"{a}}$ `\"{a}` | $\text{\v{a}}$ `\v{a}` |
-| $\text{\^{a}}$ `\^{a}` | $\text{\u{a}}$ `\u{a}` |  |                        |
+| $\text{\^{a}}$ `\^{a}` | $\text{\u{a}}$ `\u{a}` |                        |                        |
 
 ## 分隔符/括号/箭头
 
 | $( )$ `( )`                     | $\lparen \rparen$ `\lparen \rparen` | $⌈ ⌉$ `⌈ ⌉` | $\lceil \rceil$ `\lceil \rceil`                     | $\uparrow$ `\uparrow`               |
-| ------------------------------- | ----------------------------------- | ----------- | --------------------------------------------------- | ----------------------------------- |
+| ------------------------------- | ----------------------------------- | ----------- | --------------------------------------------------- | ----------------------------------- | ------------------------------------------- | ------------------------- |
 | $[ ]$ `[ ]`                     | $\lbrack \rbrack$ `\lbrack \rbrack` | $⌊⌋$ `⌊ ⌋`  | $\lfloor \rfloor$ `\lfloor \rfloor`                 | $\downarrow$ `\downarrow`           |
 | $\{ \}$ `\{ \}`                 | $\lbrace \rbrace$ `\lbrace \rbrace` | $⎰⎱$ `⎰⎱`   | $\lmoustache \rmoustache$ `\lmoustache \rmoustache` | $\updownarrow$ `\updownarrow`       |
 | $⟨ ⟩$ `⟨ ⟩`                     | $\langle \rangle$ `\langle \rangle` | $⟮ ⟯$ `⟮ ⟯` | $\lgroup \rgroup$ `\lgroup \rgroup`                 | $\Uparrow$ `\Uparrow`               |
-| `|`$|$                          | $\vert$ `\vert`                     | $┌ ┐$ `┌ ┐` | $\ulcorner \urcorner$ `\ulcorner \urcorner`         | $\Downarrow$ `\Downarrow`           |
+| `                               | `$                                  | $           | $\vert$ `\vert`                                     | $┌ ┐$ `┌ ┐`                         | $\ulcorner \urcorner$ `\ulcorner \urcorner` | $\Downarrow$ `\Downarrow` |
 | `\|`$\|$                        | $\Vert$ `\Vert`                     | $└ ┘$ `└ ┘` | $\llcorner \lrcorner$ `\llcorner \lrcorner`         | $\Updownarrow$ `\Updownarrow`       |
 | $\lvert \rvert$ `\lvert \rvert` | $\lVert \rVert$ `\lVert \rVert`     | $$ ``       | $\left. \right.$ `\left. \right.`（相信眼睛）       | $\backslash$ `\backslash`           |
 | $\lang \rang$ `\lang \rang`     | $\lt \gt$ `\lt \gt`                 | $⟦ ⟧$ `⟦ ⟧` | $\llbracket \rrbracket$ ``\llbracket \rrbracket     | $\lBrace \rBrace$ `\lBrace \rBrace` |
@@ -91,7 +89,6 @@ or
 \end{array}
 ```
 
-
 $$
 \begin{matrix}
 	a & b \\
@@ -112,8 +109,6 @@ $$
 	c & d
 \end{pmatrix}
 $$
-
-
 
 ```tex
 \begin{bmatrix}
@@ -193,16 +188,15 @@ $$
 此处显示有误
 
 ```tex
-x = 
+x =
 \begin{cases}
 	a &\text{if } b \\
 	c &\text{if } d
 \end{cases}
 ```
 
-
 $$
-x = 
+x =
 \begin{cases}
 	a &\text{if } b \\
 	c &\text{if } d
@@ -227,7 +221,6 @@ $$
 \end{smallmatrix}
 ```
 
-
 $$
 \text{Error to display.(Will be fixed soon.)}
 $$
@@ -241,7 +234,6 @@ $$
 }
 ```
 
-
 $$
 \text{Error to display.(Will be fixed soon.)}
 $$
@@ -252,7 +244,7 @@ $$
 | ----------------------------------- | ----------------------------------- |
 | $\url{https://katex.org/}$          | `\url{https://katex.org/}`          |
 
-## 字母与Unicode
+## 字母与 Unicode
 
 ### 希腊字母
 
@@ -268,7 +260,7 @@ $$
 | $\nu$ `\nu`             | $\xi$ `\xi`                 | $\omicron$ `\omicron`   | $\pi$ `\pi`               | $\rho$ `\rho`           | $\rho$ `\rho`     |
 | $\sigma$ `\sigma`       | $\tau$ `\tau`               | $\upsilon$ `\upsilon`   | $\phi$ `\phi`             | $\chi$ `\chi`           | $\psi$ `\psi`     |
 | $\omega$ `\omega`       | $\varepsilon$ `\varepsilon` | $\varkappa$ `\varkappa` | $\vartheta$ `\vartheta`   | $\thetasym$ `\thetasym` | $\varpi$ `\varpi` |
-| $\varrho$ `\varrho`     | $\varsigma$ `\varsigma`     | $\varphi$ `\varphi`     | $\digamma$ `\digamma`     |              ||
+| $\varrho$ `\varrho`     | $\varsigma$ `\varsigma`     | $\varphi$ `\varphi`     | $\digamma$ `\digamma`     |                         |                   |
 
 ### 其他字母
 
@@ -285,11 +277,11 @@ $$
 
 ### 注解
 
-| $\cancel{5}$ `\cancel{5}`       | $\overbrace{a+b+c}^{\text{note}}$ `\overbrace{a+b+c}^{\text{note}}` |
-| ------------------------------- | ------------------------------------------------------------ |
+| $\cancel{5}$ `\cancel{5}`       | $\overbrace{a+b+c}^{\text{note}}$ `\overbrace{a+b+c}^{\text{note}}`   |
+| ------------------------------- | --------------------------------------------------------------------- |
 | $\bcancel{5}$ `\bcancel{5}`     | $\underbrace{a+b+c}_{\text{note}}$ `\underbrace{a+b+c}_{\text{note}}` |
-| $\xcancel{ABC}$ `\xcancel{ABC}` | $\not =$ `\not =`                                            |
-| $\sout{abc}$ `\sout{abc}`       | $\boxed{\pi=\frac c d}$ `\boxed{\pi=\frac c d}`              |
+| $\xcancel{ABC}$ `\xcancel{ABC}` | $\not =$ `\not =`                                                     |
+| $\sout{abc}$ `\sout{abc}`       | $\boxed{\pi=\frac c d}$ `\boxed{\pi=\frac c d}`                       |
 
 ```tex
 \tag{hi} x+y^{2x}
@@ -330,22 +322,22 @@ $$
 
 #### 间距
 
-| 公式            | 结果                | 公式                 | 结果                    |
-| :-------------- | :------------------ | :------------------- | :---------------------- |
-| `\,`            | ³∕₁₈ em 空格        | `\kern{distance}`    | 空格，宽度 = *distance* |
-| `\thinspace`    | ³∕₁₈ em 空格        | `\mkern{distance}`   | 空格，宽度 = *distance* |
-| `\>`            | ⁴∕₁₈ em 空格        | `\mskip{distance}`   | 空格，宽度 = *distance* |
-| `\:`            | ⁴∕₁₈ em 空格        | `\hskip{distance}`   | 空格，宽度 = *distance* |
-| `\medspace`     | ⁴∕₁₈ em 空格        | `\hspace{distance}`  | 空格，宽度 = *distance* |
-| `\;`            | ⁵∕₁₈ em 空格        | `\hspace*{distance}` | 空格，宽度 = *distance* |
-| `\thickspace`   | ⁵∕₁₈ em 空格        | `\phantom{content}`  | 间隔content的宽度和高度 |
-| `\enspace`      | ½ em 空格           | `\hphantom{content}` | 间隔content的宽度       |
-| `\quad`         | 1 em 空格           | `\vphantom{content}` | 间隔content的高度       |
-| `\qquad`        | 2 em 空格           | `\!`                 | – ³∕₁₈ em 空格          |
-| `~`             | non-breaking 的空格 | `\negthinspace`      | – ³∕₁₈ em 空格          |
-| `\<space>`      | 空格                | `\negmedspace`       | – ⁴∕₁₈ em 空格          |
-| `\nobreakspace` | non-breaking 的空格 | `\negthickspace`     | – ⁵∕₁₈ em 空格          |
-| `\space`        | 空格                | `\mathstrut`         | `\vphantom{(}`          |
+| 公式            | 结果                | 公式                 | 结果                      |
+| :-------------- | :------------------ | :------------------- | :------------------------ |
+| `\,`            | ³∕₁₈ em 空格        | `\kern{distance}`    | 空格，宽度 = _distance_   |
+| `\thinspace`    | ³∕₁₈ em 空格        | `\mkern{distance}`   | 空格，宽度 = _distance_   |
+| `\>`            | ⁴∕₁₈ em 空格        | `\mskip{distance}`   | 空格，宽度 = _distance_   |
+| `\:`            | ⁴∕₁₈ em 空格        | `\hskip{distance}`   | 空格，宽度 = _distance_   |
+| `\medspace`     | ⁴∕₁₈ em 空格        | `\hspace{distance}`  | 空格，宽度 = _distance_   |
+| `\;`            | ⁵∕₁₈ em 空格        | `\hspace*{distance}` | 空格，宽度 = _distance_   |
+| `\thickspace`   | ⁵∕₁₈ em 空格        | `\phantom{content}`  | 间隔 content 的宽度和高度 |
+| `\enspace`      | ½ em 空格           | `\hphantom{content}` | 间隔 content 的宽度       |
+| `\quad`         | 1 em 空格           | `\vphantom{content}` | 间隔 content 的高度       |
+| `\qquad`        | 2 em 空格           | `\!`                 | – ³∕₁₈ em 空格            |
+| `~`             | non-breaking 的空格 | `\negthinspace`      | – ³∕₁₈ em 空格            |
+| `\<space>`      | 空格                | `\negmedspace`       | – ⁴∕₁₈ em 空格            |
+| `\nobreakspace` | non-breaking 的空格 | `\negthickspace`     | – ⁵∕₁₈ em 空格            |
+| `\space`        | 空格                | `\mathstrut`         | `\vphantom{(}`            |
 
 ## 逻辑与集合论
 
@@ -398,5 +390,5 @@ $$
 
 其中的：
 
-* F = (周围 HTML 文本的字体大小)/(10 pt)
-* G = 默认为1.21, 因为 KaTeX 的默认字体大小为 1.21 × 周围字体大小。这个值可以被 HTML 页面的 CSS 覆盖。
+- F = (周围 HTML 文本的字体大小)/(10 pt)
+- G = 默认为 1.21, 因为 KaTeX 的默认字体大小为 1.21 × 周围字体大小。这个值可以被 HTML 页面的 CSS 覆盖。

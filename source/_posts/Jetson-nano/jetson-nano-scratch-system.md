@@ -12,16 +12,15 @@ katex: false
 date: 2021-06-07 14:58:31
 ---
 
-
 ## 下载辅助脚本
 
 ```bash
 git clone https://github.com/pythops/jetson-nano-image
 ```
 
-## 构建rootfs
+## 构建 rootfs
 
-首先先指定rootfs的目录
+首先先指定 rootfs 的目录
 
 ```bash
 export JETSON_ROOTFS_DIR=/path/to/rootfs
@@ -61,7 +60,7 @@ cd ansible
 ```yaml
 ---
 ubuntu_release: focal
-  
+
 new_user:
   name: <您想使用的用户名>
   shell: /bin/bash
@@ -86,7 +85,7 @@ deb http://mirrors.ustc.edu.cn/ubuntu-ports {{ ubuntu_release }}-security multiv
 deb http://mirrors.ustc.edu.cn/ubuntu-ports bionic main
 ```
 
-接着开始构建自定义后的rootfs
+接着开始构建自定义后的 rootfs
 
 ```bash
 sudo -E $(which ansible-playbook) jetson.yaml
@@ -102,8 +101,8 @@ cd ..
 
 自定义开发板类型
 
-* 4GB内存版 `export JETSON_NANO_BOARD=jetson-nano`
-* 2GB内存版 `export JETSON_NANO_BOARD=jetson-nano-2gb`
+- 4GB 内存版 `export JETSON_NANO_BOARD=jetson-nano`
+- 2GB 内存版 `export JETSON_NANO_BOARD=jetson-nano-2gb`
 
 存储目录
 
@@ -119,7 +118,7 @@ sudo -E ./create-image.sh
 
 出现`successfully`后，在`$JETSON_BUILD_DIR/tools`目录下可以找到镜像文件
 
-## 安装nvidia运行库
+## 安装 nvidia 运行库
 
 ```bash
 sudo apt update

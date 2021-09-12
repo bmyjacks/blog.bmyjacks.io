@@ -16,9 +16,10 @@ katex: true
 date: 2021-01-01 17:23:31
 ---
 
-
 {% note info %}
+
 ## 信息
+
 使用系统`Epsilon version 14.4.1`进行演示
 {% endnote %}
 
@@ -26,9 +27,7 @@ date: 2021-01-01 17:23:31
 
 ![](https://cdn.bmyjacks.io/img/20210101162426.png?x-oss-process=style/style)
 
-
-
-成功进入到主界面后，我们点按左侧的方向键向下移动进入 设置 
+成功进入到主界面后，我们点按左侧的方向键向下移动进入 设置
 
 ![](https://cdn.bmyjacks.io/img/20210101162613.png?x-oss-process=style/style)
 
@@ -43,6 +42,7 @@ date: 2021-01-01 17:23:31
 #### 角度
 
 默认的角度选项，例子如下
+
 $$
 \sin 360° = 0 \newline
 \sin 2\pi = 0.1094426 \newline
@@ -69,8 +69,6 @@ $$
 \sin 400 = 0
 $$
 
-
-
 ![](https://cdn.bmyjacks.io/img/20210101170104.png?x-oss-process=style/style)
 
 ### 结果选项
@@ -88,11 +86,12 @@ $$
 ### 考试模式
 
 {% note danger %}
+
 #### 注意
+
 进入考试模式之后所有先前的数据全部都被删除，并且在下次计算器接上电源之前考试模式不会解除。
 
-考试模式解除后原先的数据也无法找回（包括系统自带的几个python脚本）
+考试模式解除后原先的数据也无法找回（包括系统自带的几个 python 脚本）
 {% endnote %}
 
 ## 计算界面
-

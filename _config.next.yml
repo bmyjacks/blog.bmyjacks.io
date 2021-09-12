@@ -194,7 +194,7 @@ footer:
     # If you want to animate the icon, set it to true.
     animated: true
     # Change the color of icon, using Hex Code.
-    color: "#ff0000"
+    color: '#ff0000'
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
   copyright:
@@ -332,7 +332,7 @@ text_align:
 mobile_layout_economy: true
 
 # Android Chrome header panel color ($brand-bg / $headband-bg => $black-deep).
-android_chrome_color: "#222"
+android_chrome_color: '#222'
 
 # Override browsers' default behavior.
 body_scrollbar:
@@ -371,14 +371,14 @@ reading_progress:
   # Available values: top | bottom
   position: top
   reversed: false
-  color: "#37c6c0"
+  color: '#37c6c0'
   height: 3px
 
 # Bookmark Support
 bookmark:
   enable: true
   # Customize the color of the bookmark.
-  color: "#222"
+  color: '#222'
   # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
   # If manual, only save it by clicking the bookmark-icon.
   save: auto
@@ -632,7 +632,7 @@ isso: # <data_isso>
 rating:
   enable: true
   id: 23310
-  color: "#fc6423"
+  color: '#fc6423'
 
 # AddThis Share. See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.

@@ -10,13 +10,15 @@ date: 2020-08-20 09:14:05
 keywords:
 ---
 
-
 {% note info %}
+
 ## 提示
+
 本文中的链接使用的是[清华大学(TUNA)](https://mirrors.tuna.tsinghua.edu.cn/)软件源，包含`arm64`与`armhf`架构，包含`wheezy`与`jessie`与`stretch`与`buster`版本。演示中使用的是`buster armhf`版本，请大家**根据自己的需要**来修改。
 {% endnote %}
 
 ## 更换软件源
+
 打开终端，使用以下命令:
 
 ```shell
@@ -33,11 +35,13 @@ deb-src http://mirrors.tuna.tsinghua.edu.cn/raspberry-pi-os/raspbian/ buster mai
 按`Ctrl`+`O`保存后，按`Ctrl`+`X`退出
 
 接着更换:
+
 ```shell
 sudo nano /etc/apt/sources.list.d/raspi.list
 ```
 
 将所有内容替换为:
+
 ```text
 deb http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
 ```
@@ -45,7 +49,9 @@ deb http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
 按`Ctrl`+`O`保存后，按`Ctrl`+`X`退出
 
 ## 更新软件源
+
 在终端中输入
+
 ```shell
 sudo apt update
 sudo apt-get update
