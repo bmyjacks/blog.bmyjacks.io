@@ -15,6 +15,8 @@ copyright: false
 
 在这里，你能看到一些新奇有趣的教程，请慢慢阅读！
 
+**网站已降级，对于无法访问、访问失效等状态请谅解**
+
 ## 内容分类
 
 最新博文: [LaTeX 数学公式指南（KaTeX 版）](/LaTeX/latex-mathematics/)
