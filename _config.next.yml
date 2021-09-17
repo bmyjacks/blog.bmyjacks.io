@@ -142,8 +142,8 @@ site_state: true
 social:
   GitHub: https://github.com/bmyjacks || fab fa-github
   E-Mail: mailto:bmyjacks@bmyjacks.io || fa fa-envelope
-  Patreon: https://www.patreon.com/bmyjacks || fab fa-patreon
-  爱发电: https://afdian.net/@bmyjacks || fas fa-donate
+  Telegram: https://t.me/bmyjacks || fab fa-telegram
+  腾讯QQ: http://wpa.qq.com/msgrd?v=3&uin=3166256422&site=qq&menu=yes || fab fa-qq
 
 social_icons:
   enable: true
