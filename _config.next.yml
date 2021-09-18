@@ -90,6 +90,7 @@ menu:
   服务状态: https://status.bmyjacks.io/ || fas fa-check
   隐私协议: /privacy-policy/ || fas fa-balance-scale
   DSAR表格: /dsar/ || fas fa-balance-scale
+  blog服务更新记录: /blog-update/ || fas fa-wrench
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
