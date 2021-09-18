@@ -10,4 +10,4 @@ date: 2021-09-18 08:01:21
 ## 2021-09-18
 
 - 开通本页面，开始记录 blog 服务的更新
-- 将原本的`revolvermaps`更换为`livetrafficfeed`与`web-stat`
+- 将原本的`revolvermaps`更换为`web-stat`
