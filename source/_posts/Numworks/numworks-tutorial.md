@@ -25,19 +25,19 @@ date: 2021-01-01 17:23:31
 
 ## 设置
 
-![](https://cdn.bmyjacks.io/img/20210101162426.png?x-oss-process=style/style)
+![](https://cdn.bmyjacks.io/img/20210101162426.png?x-oss-process=style/img)
 
 成功进入到主界面后，我们点按左侧的方向键向下移动进入 设置
 
-![](https://cdn.bmyjacks.io/img/20210101162613.png?x-oss-process=style/style)
+![](https://cdn.bmyjacks.io/img/20210101162613.png?x-oss-process=style/img)
 
-![](https://cdn.bmyjacks.io/img/20210101164200.png?x-oss-process=style/style)
+![](https://cdn.bmyjacks.io/img/20210101164200.png?x-oss-process=style/img)
 
-![](https://cdn.bmyjacks.io/img/20210101164319.png?x-oss-process=style/style)
+![](https://cdn.bmyjacks.io/img/20210101164319.png?x-oss-process=style/img)
 
 ### 角度选项
 
-![](https://cdn.bmyjacks.io/img/20210101164451.png?x-oss-process=style/style)
+![](https://cdn.bmyjacks.io/img/20210101164451.png?x-oss-process=style/img)
 
 #### 角度
 
@@ -49,7 +49,7 @@ $$
 \sin 400 = 0.6427876
 $$
 
-![](https://cdn.bmyjacks.io/img/20210101165121.png?x-oss-process=style/style)
+![](https://cdn.bmyjacks.io/img/20210101165121.png?x-oss-process=style/img)
 
 #### 弧度
 
@@ -59,7 +59,7 @@ $$
 \sin 400 = -0.8509194
 $$
 
-![](https://cdn.bmyjacks.io/img/20210101165906.png?x-oss-process=style/style)
+![](https://cdn.bmyjacks.io/img/20210101165906.png?x-oss-process=style/img)
 
 #### 百分度
 
@@ -69,19 +69,19 @@ $$
 \sin 400 = 0
 $$
 
-![](https://cdn.bmyjacks.io/img/20210101170104.png?x-oss-process=style/style)
+![](https://cdn.bmyjacks.io/img/20210101170104.png?x-oss-process=style/img)
 
 ### 结果选项
 
-![](https://cdn.bmyjacks.io/img/20210101171226.png?x-oss-process=style/style)
+![](https://cdn.bmyjacks.io/img/20210101171226.png?x-oss-process=style/img)
 
 ### 输出选项
 
-![](https://cdn.bmyjacks.io/img/20210101171334.png?x-oss-process=style/style)
+![](https://cdn.bmyjacks.io/img/20210101171334.png?x-oss-process=style/img)
 
 ### 复数选项
 
-![](https://cdn.bmyjacks.io/img/20210101171701.png?x-oss-process=style/style)
+![](https://cdn.bmyjacks.io/img/20210101171701.png?x-oss-process=style/img)
 
 ### 考试模式
 

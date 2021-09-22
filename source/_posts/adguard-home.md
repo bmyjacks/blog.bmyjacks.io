@@ -26,11 +26,11 @@ date: 2020-03-09 20:46:28
 
 点击`releases`
 
-![GitHub-Releases-Page](https://cdn.bmyjacks.io/img/20200309194654.png?x-oss-process=style/style)
+![GitHub-Releases-Page](https://cdn.bmyjacks.io/img/20200309194654.png?x-oss-process=style/img)
 
 下载最新版本
 
-![Downloading](https://cdn.bmyjacks.io/img/20200309194854.png?x-oss-process=style/style)
+![Downloading](https://cdn.bmyjacks.io/img/20200309194854.png?x-oss-process=style/img)
 
 先下载到本地在上传到云端比较节省时间（海外人士除外）
 
@@ -41,7 +41,7 @@ tar -xzvf AdGuardHome_linux_amd64.tar.gz
 cd AdGuardHome/
 ```
 
-![Folder](https://cdn.bmyjacks.io/img/20200309201502.png?x-oss-process=style/style)
+![Folder](https://cdn.bmyjacks.io/img/20200309201502.png?x-oss-process=style/img)
 
 安装依赖`apt-get install sudo nano bind9-host`
 
@@ -51,7 +51,7 @@ cd AdGuardHome/
 
 访问`http://ip:3000`，点击下一步直到这个页面
 
-![confirgure](https://cdn.bmyjacks.io/img/20200309202015.png?x-oss-process=style/style)
+![confirgure](https://cdn.bmyjacks.io/img/20200309202015.png?x-oss-process=style/img)
 
 填写好你的密码之后点击下一步即可完成安装
 
