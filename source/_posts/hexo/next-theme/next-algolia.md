@@ -11,23 +11,23 @@ date: 2020-03-13 15:43:09
 
 我们打开[algolia 的官方网站](https://www.algolia.com/)
 
-![](https://cdn.bmyjacks.io/img/20200310184600.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200310184600.png?x-oss-process=style/img)
 
 点击`FREE TRIAL`注册一个账号
 
-![](https://cdn.bmyjacks.io/img/20200310205536.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200310205536.png?x-oss-process=style/img)
 
 填写相应的邮箱以及密码之后来到控制台，新建一个应用：
-![20200310205818](https://cdn.bmyjacks.io/img/20200310205818.png?x-oss-process=style/img)
+![20200310205818](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200310205818.png?x-oss-process=style/img)
 接着选择数据存放的位置，一般在中国就选香港（HONGKONG）就行了
-![20200310205938](https://cdn.bmyjacks.io/img/20200310205938.png?x-oss-process=style/img)
+![20200310205938](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200310205938.png?x-oss-process=style/img)
 之后点击右侧的`Create index`创建索引名称
-![20200310211031](https://cdn.bmyjacks.io/img/20200310211031.png?x-oss-process=style/img)
+![20200310211031](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200310211031.png?x-oss-process=style/img)
 必须要记好这个名称，之后会用到，比如这里填 test，点击 create
-![20200310211153](https://cdn.bmyjacks.io/img/20200310211153.png?x-oss-process=style/img)
+![20200310211153](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200310211153.png?x-oss-process=style/img)
 创建成功后在左侧找到 API Keys
-![20200310211303](https://cdn.bmyjacks.io/img/20200310211303.png?x-oss-process=style/img)
-![20200310211356](https://cdn.bmyjacks.io/img/20200310211356.png?x-oss-process=style/img)
+![20200310211303](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200310211303.png?x-oss-process=style/img)
+![20200310211356](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200310211356.png?x-oss-process=style/img)
 将图中所示的 API Key 保存好，接着我们开始在 Hexo 中配置
 
 ## Hexo 中的配置
@@ -48,10 +48,10 @@ algolia:
 
 ```
 
-![20200313153519](https://cdn.bmyjacks.io/img/20200313153519.png?x-oss-process=style/img)
+![20200313153519](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200313153519.png?x-oss-process=style/img)
 
 在{% label [warning]@NexT的config文件 %}中配置
-![20200313153620](https://cdn.bmyjacks.io/img/20200313153620.png?x-oss-process=style/img)
+![20200313153620](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200313153620.png?x-oss-process=style/img)
 将`enable`设置为`true`
 
 完成站点的配置
@@ -66,7 +66,7 @@ hexo algolia
 ```
 
 如果出现以下情况
-![20200313153947](https://cdn.bmyjacks.io/img/20200313153947.png?x-oss-process=style/img)
+![20200313153947](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200313153947.png?x-oss-process=style/img)
 输入
 
 ```bash

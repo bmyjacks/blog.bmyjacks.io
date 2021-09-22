@@ -45,17 +45,17 @@ Sunday 算法匹配方式如下：
 
 则刚开始匹配时`txt`与`pat`左端对齐
 
-![](https://cdn.bmyjacks.io/img/20210414094226.png?x-oss-process=style/style)
+![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210414094226.png?x-oss-process=style/img)
 
 此时我们从`pat`的左端开始向右匹配，当匹配到第三位时`txt`与`pat`的内容不同：
 
-![](https://cdn.bmyjacks.io/img/20210414094739.png?x-oss-process=style/style)
+![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210414094739.png?x-oss-process=style/img)
 
 接着检查`txt`中`pat`的长度下一位字母在`pat`中有没有出现过。
 
 发现 $D$ 并没有在`pat`中出现，便将整个`pat`向后移动 $len(pat) + 1$ 位：
 
-![](https://cdn.bmyjacks.io/img/20210414095137.png?x-oss-process=style/style)
+![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210414095137.png?x-oss-process=style/img)
 
 此时便匹配成功。
 
@@ -66,19 +66,19 @@ Sunday 算法匹配方式如下：
 
 初始状态：
 
-![](https://cdn.bmyjacks.io/img/20210414095821.png?x-oss-process=style/style)
+![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210414095821.png?x-oss-process=style/img)
 
 匹配时发现在第 $4$ 位时`txt`与`pat`不一样，于是便比较`txt`的 $len(pat) + 1$ 位，发现 $A$ 在`pat`中出现过，于是便将该处 $A$ 与`pat`中最接近末尾的 $A$ 对齐：
 
-![](https://cdn.bmyjacks.io/img/20210414100219.png?x-oss-process=style/style)
+![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210414100219.png?x-oss-process=style/img)
 
 匹配时发现匹配失败了，于是检查下一位 $B$ 在`pat`中出现过，将它与`pat`中最靠近末尾的 $B$ 对齐：
 
-![](https://cdn.bmyjacks.io/img/20210414100553.png?x-oss-process=style/style)
+![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210414100553.png?x-oss-process=style/img)
 
 检查下一位，对齐：
 
-![](https://cdn.bmyjacks.io/img/20210414100712.png?x-oss-process=style/style)
+![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210414100712.png?x-oss-process=style/img)
 
 匹配成功。
 

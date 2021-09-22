@@ -19,12 +19,12 @@ date: 2020-03-25 08:12:55
 ## 配置防火墙
 
 进入 dashboard 后，点击 Firewall，进入到 Firewall Rules
-![firewall rules](https://cdn.bmyjacks.io/img/20200325071518.png?x-oss-process=style/img)
+![firewall rules](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200325071518.png?x-oss-process=style/img)
 
 ### 拦截恶意 bot
 
 新建一个 Firewall Rules，首先我们配置规则让一些会对网站造成威胁的 bot 进行拦截
-![example](https://cdn.bmyjacks.io/img/20200325072055.png?x-oss-process=style/img)
+![example](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200325072055.png?x-oss-process=style/img)
 在 2 中写入
 
 ```bash
@@ -299,12 +299,12 @@ Bypass #跳过(这个目前博主也不太明白具体是什么意思，希望�
 ```
 
 点击保存，确保设置为打开状态，现在，恶意 bot 就无法访问您的网站了！
-![Turn on the firewall](https://cdn.bmyjacks.io/img/20200325072746.png?x-oss-process=style/img)
+![Turn on the firewall](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200325072746.png?x-oss-process=style/img)
 
 ## 恶意 IP
 
 新建 Firewall Rule，按照图示编辑选项
-![Whreat score](https://cdn.bmyjacks.io/img/20200325080814.png?x-oss-process=style/img)
+![Whreat score](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200325080814.png?x-oss-process=style/img)
 
 ```bash
 Threat Score #IP威胁指数

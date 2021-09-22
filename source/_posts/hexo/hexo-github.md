@@ -11,11 +11,11 @@ date: 2020-03-16 15:27:56
 
 创建 GitHub 仓库
 首先，我们创建一个新的 GitHub 仓库
-![20200316150827](https://cdn.bmyjacks.io/img/20200316150827.png?x-oss-process=style/img)
-![20200316150902](https://cdn.bmyjacks.io/img/20200316150902.png?x-oss-process=style/img)
+![20200316150827](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200316150827.png?x-oss-process=style/img)
+![20200316150902](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200316150902.png?x-oss-process=style/img)
 修改 config.yml
 打开站点的配置文件，将默认的`http://yoursite.com`替换为您自己的网址
-![20200316151051](https://cdn.bmyjacks.io/img/20200316151051.png?x-oss-process=style/img)
+![20200316151051](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200316151051.png?x-oss-process=style/img)
 将配置文件最下方的 deploy 替换为
 
 ```yml
@@ -56,7 +56,7 @@ db.json
 debug.log
 ```
 
-![20200316152215](https://cdn.bmyjacks.io/img/20200316152215.png?x-oss-process=style/img)
+![20200316152215](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200316152215.png?x-oss-process=style/img)
 添加远端仓库
 
 ```bash
