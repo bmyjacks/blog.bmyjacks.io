@@ -112,7 +112,7 @@ int32_t findRoot(const int32_t x) {
   if (root[x] == x) {
     return x;
   } else {
-    findRoot(root[x]);
+    return findRoot(root[x]);
   }
 }
 ```
