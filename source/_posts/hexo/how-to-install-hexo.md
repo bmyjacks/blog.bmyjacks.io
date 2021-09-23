@@ -7,7 +7,7 @@ description: 想用Hexo来写个人博客，却不知道如何下手？本文将
 date: 2020-02-09 15:49:20
 ---
 
-![Hexo Logo](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309164643.png?x-oss-process=style/img)
+![Hexo Logo](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309164643.png?x-oss-process=style/img)
 
 ## 首先，我们需要 Git 和 Nodejs
 
@@ -19,17 +19,17 @@ Git 的安装就不演示了，相信大家使用 hexo 的都会安装 git 了�
 
 下载左边的和右边的均可，这里以右边的为例：
 
-![nodejs download](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309164723.png?x-oss-process=style/img)
+![nodejs download](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309164723.png?x-oss-process=style/img)
 
 接着，我们按照正常的方法安装 nodejs。
 
 安装完成后，在命令行里输入`node -v`查看 node 版本，出现版本号则安装成功，如下图所示：
 
-![nodejs version](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309165142.png?x-oss-process=style/img)
+![nodejs version](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309165142.png?x-oss-process=style/img)
 
 `npm -v`查看 npm 版本：
 
-![npm version](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309165203.png?x-oss-process=style/img)
+![npm version](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309165203.png?x-oss-process=style/img)
 
 好，我们已经安装完成了 nodejs。
 
@@ -40,33 +40,33 @@ Git 的安装就不演示了，相信大家使用 hexo 的都会安装 git 了�
 
 点击回车之后，我们看到命令行输出了一堆奇怪的字符，先不要管他，看到这些提示说明你安装成功了：
 
-![install hexo](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309165221.png?x-oss-process=style/img)
+![install hexo](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309165221.png?x-oss-process=style/img)
 
 ## 下一步，创建一个新的文件夹，并安装 hexo
 
 我们创建一个新的文件夹，名字随意。
 
-![create folder](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309165237.png?x-oss-process=style/img)
+![create folder](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309165237.png?x-oss-process=style/img)
 
 在上一级文件夹中，输入`hexo init <你的文件夹名字>`来初始化这个文件夹：
 
-![hexo initial](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309165254.png?x-oss-process=style/img)
+![hexo initial](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309165254.png?x-oss-process=style/img)
 
 好，现在让我们进入该文件夹，运行`npm install`来安装一些依赖的包文件：
 
-![npm install](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309165311.png?x-oss-process=style/img)
+![npm install](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309165311.png?x-oss-process=style/img)
 
 然后运行`hexo generate`或者`hexo g`（这两个命令其实是一样的）来初始化 hexo：
 
-![hexo generate](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309165331.png?x-oss-process=style/img)
+![hexo generate](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309165331.png?x-oss-process=style/img)
 
 接着，输入`hexo server`或`hexo s`（这两条命令也是一样的）来在本地运行 hexo：
 
-![hexo server](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309165342.png?x-oss-process=style/img)
+![hexo server](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309165342.png?x-oss-process=style/img)
 
 现在，打开你的浏览器，在地址栏输入`localhost:4000`回车后进入网页
 
-![browser](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309165352.png?x-oss-process=style/img)
+![browser](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309165352.png?x-oss-process=style/img)
 
 好了，我们已经成功的安装了 hexo
 

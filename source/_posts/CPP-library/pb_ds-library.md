@@ -20,7 +20,7 @@ date: 2021-09-17 19:42:03
 ---
 
 {% note info %}
-本文章最后更新日期为：2021-09-17
+本文章最后更新日期为：2021-09-23
 {% endnote %}
 
 ## 什么是 `pb_ds`？
@@ -171,16 +171,64 @@ int main() {
 
 {% endnote %}
 
+<!--
+
 ### 性能测试
 
 又到了喜闻乐见的性能测试环节，本次测试机配置如下：
 
 - CPU: i5-7500 @ 3.40GHz
 - MEM: 16G DDR4 @ 2666MHz
-- DISK: 16G Intel Optane Memory with ROG STRIX Arion @ USB 3.2 Gen1 5Gb/s
-- OS: Windows 10 1809
-- Compiler: g++(GCC) version 9.2.0 (tdm64-1)
+- OS: Manjaro Linux kernel 5.14.2
+- Compiler: clang version 12.0.1
 
-编译命令：`g++ -std=c++14 -O2 test.cpp -o test.exe`
+编译命令：`clang++ -std=c++20 -O2 test.cpp -o test.exe`
 
 ![tree-insert](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/pb_ds-library/tree-insert.png?x-oss-process=style/img)
+
+-->
+
+## trie
+
+trie 为字典树。
+
+### 头文件
+
+```cpp
+#include <ext/pb_ds/assoc_container.hpp>  // trie的定义
+#include <ext/pb_ds/trie_policy.hpp>      // 节点更新函数的定义
+```
+
+### 模板
+
+```cpp
+template <typename Key, typename Mapped, typename Cmp_Fn = std::less<Key>,
+          typename Tag = pat_trie_tag,
+          template <typename Const_Node_Iterator, typename Node_Iterator,
+                    typename E_Access_Traits_, typename Allocator_>
+          class Node_Update = null_trie_node_update,
+          typename Allocator = std::allocator<char> >
+class trie;
+```
+
+#### 模板参数
+
+- `Key`指存储的数据类型（建议使用`std::string`）
+- `Mapped`指的是映射的对象的类型，如果不需要映射就使用`null_type`，而版本号低（待补充）的`g++`需要使用`null_mapped_type`
+- `Cmp_Fn`为存储类型的比较函数，可以自行编写或使用`std::less<Key>`或`std::greater<Key>`
+- `Tag`选择底层数据结构的类型，建议使用`pat_trie_tag`
+- `Node_Update`节点更新策略
+
+#### 构造例子
+
+```cpp
+trie<string, null_type, trie_string_access_traits<>, pat_trie_tag,
+     trie_prefix_search_node_update>
+    tree;
+```
+
+#### 成员函数
+
+- `insert(x)`插入字符串 $x$
+- `erase(x)`删除字符串 $x$
+- `x.join(y)`将 $y$ 并入 $x$ 并清空 $y$

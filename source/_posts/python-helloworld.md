@@ -10,7 +10,7 @@ date: 2020-03-13 17:53:26
 ## 第一种方法
 
 打开 cmd，输入`python`，进入了 python 的终端
-![20200313172745](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200313172745.png?x-oss-process=style/img)
+![20200313172745](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200313172745.png?x-oss-process=style/img)
 接着，输入
 
 ```python
@@ -18,13 +18,13 @@ print("Hello World!")
 ```
 
 激动人心的时刻，恭喜你成功入坑！
-![20200313172849](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200313172849.png?x-oss-process=style/img)
+![20200313172849](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200313172849.png?x-oss-process=style/img)
 
 ## 第二种方法
 
 在开始菜单中找到`Python`文件夹，打开`IDLE`
-![20200313173000](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200313173000.png?x-oss-process=style/img)
-![20200313173057](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200313173057.png?x-oss-process=style/img)
+![20200313173000](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200313173000.png?x-oss-process=style/img)
+![20200313173057](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200313173057.png?x-oss-process=style/img)
 接着，输入
 
 ```python
@@ -32,7 +32,7 @@ print("Hello World!")
 ```
 
 激动人心的时刻，恭喜你成功入坑！
-![20200313173130](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200313173130.png?x-oss-process=style/img)
+![20200313173130](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200313173130.png?x-oss-process=style/img)
 
 ## 第三种方法
 
@@ -42,9 +42,9 @@ print("Hello World!")
 print("Hello World!")
 ```
 
-![20200313173315](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200313173315.png?x-oss-process=style/img)
+![20200313173315](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200313173315.png?x-oss-process=style/img)
 将文件的后缀名改成`.py`后，保存。用 IDLE 打开后，按`F5`
-![20200313173532](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200313173532.png?x-oss-process=style/img)
+![20200313173532](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200313173532.png?x-oss-process=style/img)
 {% note success %}
 
 ## 欢迎

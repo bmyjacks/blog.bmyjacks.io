@@ -48,10 +48,10 @@ darkmode: true
 # ---------------------------------------------------------------
 
 favicon:
-  small: /favicon/favicon-16x16.webp
-  medium: /favicon/favicon-32x32.webp
-  apple_touch_icon: /favicon/apple-touch-icon.webp
-  safari_pinned_tab: /favicon/safari-pinned-tab.svg
+  small: https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/favicon/favicon-16x16.png?x-oss-process=style/favicon
+  medium: https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/favicon/favicon-32x32.png?x-oss-process=style/favicon
+  apple_touch_icon: https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/favicon/apple-touch-icon.png?x-oss-process=style/favicon
+  safari_pinned_tab: https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/favicon/safari-pinned-tab.svg
   #android_manifest: /manifest.json
 
 # Custom Logo (Warning: Do not support scheme Mist)
@@ -142,6 +142,7 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
+  RSS: /atom.xml || fa fa-rss
   GitHub: https://github.com/bmyjacks || fab fa-github
   E-Mail: mailto:bmyjacks@bmyjacks.io || fa fa-envelope
   Telegram: https://t.me/bmyjacks || fab fa-telegram
@@ -164,6 +165,7 @@ links:
   （MBRの小破站: https://blog.mbrjun.cn/
   苏卡卡的有底洞: https://blog.skk.moe/
   Colsrch: https://colsrch.cn/
+  SentencesJudger: https://sentencesjudger.xyz/
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
@@ -255,8 +257,8 @@ reward_settings:
   #comment: Buy me a coffee
 
 reward:
-  爱发电: /donate/qrcode_afdian.net.png
-  Patreon: /donate/qrcode_www.patreon.com.png
+  爱发电: https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/donate/qrcode_afdian.net.png
+  Patreon: https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/donate/qrcode_www.patreon.com.png
 
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
@@ -264,7 +266,7 @@ follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
   #WeChat: /images/wechat_channel.jpg || fab fa-weixin
-  RSS: /atom.xml || fa fa-rss
+  #RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
@@ -273,7 +275,7 @@ related_posts:
   title: 向您推荐的文章 # Custom header, leave empty to use the default one
   display_in_home: false
   params:
-    maxCount: 7
+    maxCount: 5
     #PPMixingRate: 0.0
     #isDate: false
     #isImage: false
@@ -364,7 +366,7 @@ back2top:
   # Back to top in sidebar.
   sidebar: true
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:
@@ -417,8 +419,8 @@ font:
 
   # Global font settings used for all elements inside <body>.
   global:
-    external: false
-    family:
+    external: true
+    family: Noto Sans SC
     size:
 
   # Font settings for site title (.site-title).

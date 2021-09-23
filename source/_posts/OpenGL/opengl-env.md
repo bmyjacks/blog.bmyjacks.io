@@ -33,7 +33,7 @@ katex: false
 
 在`Visual Studio Installer`界面选择`Desktop development with C++`点击安装即可完成`Visual Studio`的安装。
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210720071839.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20210720071839.png?x-oss-process=style/img)
 
 ## 下载`OpenGL`库(library)
 
@@ -61,49 +61,49 @@ katex: false
 
 创建我们的工作文件夹(比如`OpenGL`)，使用`Visual Studio`创建**空项目**。
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210720074406.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20210720074406.png?x-oss-process=style/img)
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210720074550.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20210720074550.png?x-oss-process=style/img)
 
 在新创建的项目中添加`include`与`lib`文件夹
 
 将`GLEW`与`GLFW`中`include`文件夹下的所有文件以及文件夹复制进入项目的`include`目录
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210720075010.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20210720075010.png?x-oss-process=style/img)
 
 接着将`lib`文件进行复制，`glfw`请复制对应版本的`lib`目录，确保 lib 下拥有这两个文件。
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210720075236.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20210720075236.png?x-oss-process=style/img)
 
 在项目中添加`cpp`文件，按{% button #, Ctrl %} + {% button #, Shift %} + {% button #, A %}进入对话框
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210720075553.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20210720075553.png?x-oss-process=style/img)
 
 选择`Visual C++`创建`.cpp`文件，命名为`main.cpp`
 
 创建之后右键项目名称后的最后一栏进入属性
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210720075833.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20210720075833.png?x-oss-process=style/img)
 
 调整配置到'所有配置'以及’所有平台’，进入`C++`选项
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210720075906.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20210720075906.png?x-oss-process=style/img)
 
 添加刚刚的`include`目录到’额外的 include 目录下’
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210720080201.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20210720080201.png?x-oss-process=style/img)
 
 接着修改连接器
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210720080241.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20210720080241.png?x-oss-process=style/img)
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210720080533.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20210720080533.png?x-oss-process=style/img)
 
 并且在’输入’中修改依赖
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210720080406.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20210720080406.png?x-oss-process=style/img)
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210720080502.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20210720080502.png?x-oss-process=style/img)
 
 ```
 opengl32.lib
@@ -166,6 +166,6 @@ int main() {
 
 保存，点击{% button #, F5 %}运行后，就能看到如下窗口
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20210720081503.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20210720081503.png?x-oss-process=style/img)
 
 代表我们成功配置好了开发环境

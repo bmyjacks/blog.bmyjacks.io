@@ -26,47 +26,47 @@ date: 2020-10-02 22:25:55
 
 使用的`ffmpeg`为 jellyfin 自带的 ffmpeg，并将转码线程数设置为 4，其他保持默认。
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002204342.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002204342.png?x-oss-process=style/img)
 
 ### HEVC(h265)解码测试
 
-文件信息![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002204838.png?x-oss-process=style/img)
+文件信息![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002204838.png?x-oss-process=style/img)
 
 解码信息
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002205043.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002205043.png?x-oss-process=style/img)
 
 系统资源占用
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002205010.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002205010.png?x-oss-process=style/img)
 
 ### MPEG4(DivX)解码测试
 
 文件信息
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002205921.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002205921.png?x-oss-process=style/img)
 
 解码信息
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002210040.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002210040.png?x-oss-process=style/img)
 
 系统资源占用
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002210023.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002210023.png?x-oss-process=style/img)
 
 ### MPEG4(Xvid)解码测试
 
 文件信息
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002210539.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002210539.png?x-oss-process=style/img)
 
 解码信息
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002210629.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002210629.png?x-oss-process=style/img)
 
 系统资源占用
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002210617.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002210617.png?x-oss-process=style/img)
 
 ### AVC(h264)解码测试
 
@@ -76,15 +76,15 @@ date: 2020-10-02 22:25:55
 
 文件信息
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002211204.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002211204.png?x-oss-process=style/img)
 
 解码信息
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002211246.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002211246.png?x-oss-process=style/img)
 
 系统资源占用
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002211318.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002211318.png?x-oss-process=style/img)
 
 ## 解码性能低下原因解析（可能）
 
@@ -96,11 +96,11 @@ date: 2020-10-02 22:25:55
 
 设置信息
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002211744.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002211744.png?x-oss-process=style/img)
 
 播放
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002222332.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002222332.png?x-oss-process=style/img)
 
 boom！
 
@@ -108,43 +108,43 @@ boom！
 
 设置信息
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002211952.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002211952.png?x-oss-process=style/img)
 
 解码信息
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002222400.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002222400.png?x-oss-process=style/img)
 
 系统资源占用
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002212134.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002212134.png?x-oss-process=style/img)
 
 GPU 占用
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002222422.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002222422.png?x-oss-process=style/img)
 
 ### VAAPI 测试
 
 设置信息
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002212449.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002212449.png?x-oss-process=style/img)
 
 很容易就看出来会播放出错，但。。。
 
 解码信息
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002212557.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002212557.png?x-oss-process=style/img)
 
 系统资源占用
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002212621.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002212621.png?x-oss-process=style/img)
 
 ### Video Toolbox 测试
 
 设置信息
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002222437.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002222437.png?x-oss-process=style/img)
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002222332.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002222332.png?x-oss-process=style/img)
 
 boom！
 
@@ -209,7 +209,7 @@ deb-src https://repo.download.nvidia.com/jetson/ffmpeg main main
 
 请勿使用仓库自带的 ffmpeg，因为使用后无法播放文件，输出如下
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002213736.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002213736.png?x-oss-process=style/img)
 
 可以看出是未编译进解码器
 
@@ -229,7 +229,7 @@ cd ffmpeg-4.2.2
 
 查看 jellyfin 自带的 ffmpeg 编译代码
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002222459.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002222459.png?x-oss-process=style/img)
 
 ```bash
 configuration: --prefix=/usr/lib/jellyfin-ffmpeg --target-os=linux --disable-doc --disable-ffplay --disable-shared --disable-libxcb --disable-sdl2 --disable-xlib --enable-gpl --enable-version3 --enable-static --enable-libfontconfig --enable-fontconfig --enable-gmp --enable-gnutls --enable-libass --enable-libbluray --enable-libdrm --enable-libfreetype --enable-libfribidi --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libwebp --enable-libx264 --enable-libx265 --enable-libzvbi --toolchain=hardened --enable-cross-compile --enable-omx --enable-omx-rpi --arch=arm64 --cross-prefix=/usr/bin/aarch64-linux-gnu-
@@ -237,7 +237,7 @@ configuration: --prefix=/usr/lib/jellyfin-ffmpeg --target-os=linux --disable-doc
 
 查看默认 nvidia 的 ffmpeg 编译代码
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002213736.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002213736.png?x-oss-process=style/img)
 
 ```bash
 configuration: --prefix=/usr --enable-nvv4l2dec --enable-libv4l2 --enable-shared --extra-libs='-L/usr/lib/aarch64-linux-gnu/tegra -lnvbuf_utils' --extra-cflags='-I /usr/src/jetson_multimedia_api/include/'
@@ -258,7 +258,7 @@ sudo make install
 
 ### 编译后进入目录运行
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002221408.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002221408.png?x-oss-process=style/img)
 
 出现异常
 
@@ -274,7 +274,7 @@ sudo make install
 sudo ldconfig
 ```
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002221648.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002221648.png?x-oss-process=style/img)
 
 编译完成！
 
@@ -282,13 +282,13 @@ sudo ldconfig
 
 设置信息
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002221754.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002221754.png?x-oss-process=style/img)
 
 接下来进行解码测试
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002221907.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002221907.png?x-oss-process=style/img)
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20201002221854.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20201002221854.png?x-oss-process=style/img)
 
 ？？？WHAT 怎么还是一样的
 

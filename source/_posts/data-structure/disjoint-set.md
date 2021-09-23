@@ -57,7 +57,7 @@ $$
 
 那么刚开始的这些帮派里**只有一个人**，并且这个人就是他们自己（自己当自己的老大）。
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/data-structure/disjoint-set/1.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/data-structure/disjoint-set/1.png?x-oss-process=style/img)
 
 ```cpp
 for (int32_t i = 1; i <= n; ++i) {
@@ -69,7 +69,7 @@ for (int32_t i = 1; i <= n; ++i) {
 
 当我们需要合并某两个帮派时，将这两个帮派的老大连接到一起，比如合并 $1$ 与 $2$：
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/data-structure/disjoint-set/2.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/data-structure/disjoint-set/2.png?x-oss-process=style/img)
 
 这时由于同一个帮派**只能**有一个老大，所以从这两个人中随便选一个来当。
 
@@ -91,7 +91,7 @@ $$
 root: 4 \quad 6 \quad 1 \quad 4 \quad 2 \quad 6 \quad
 $$
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/data-structure/disjoint-set/3.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/data-structure/disjoint-set/3.png?x-oss-process=style/img)
 
 如果这时我们合并 $5$ 与 $3$ 时
 
@@ -99,7 +99,7 @@ $$
 root: 4 \quad 3 \quad 1 \quad 4 \quad 2 \quad 6 \quad
 $$
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/data-structure/disjoint-set/4.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/data-structure/disjoint-set/4.png?x-oss-process=style/img)
 
 就会发现原本与 $2$ 在同一个帮派（集合）内的 $6$ 现在竟然被独立出去了！
 
@@ -190,13 +190,13 @@ int main() {
 
 当我们在查询最大的头目时，需要一个个向上查找，为什么不在查找之后直接将自己的老大设为最大的头目呢？这样，路径压缩优化已经完美理解。
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/data-structure/disjoint-set/5.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/data-structure/disjoint-set/5.png?x-oss-process=style/img)
 
 当我们不使用路径压缩时，如果需要查询 $6$、$5$ 的最大头目时，需要向上查询 $9$ 次。
 
 而我们使用路径压缩之后，查询 $6$ 的最大头目后整个集合变成了这样：
 
-![](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/data-structure/disjoint-set/6.png?x-oss-process=style/img)
+![](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/data-structure/disjoint-set/6.png?x-oss-process=style/img)
 
 这时查询 $6$ 和 $5$ 的查询次数就只有 $6$ 次了。
 

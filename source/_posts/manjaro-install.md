@@ -31,7 +31,7 @@ Ventoy 是一个制作可启动 U 盘的工具，在不需要格式化的情况�
 
 前往[www.ventoy.net](https://www.ventoy.net/cn/index.html)进行下载，后选择一个移动存储设备进行安装。
 
-![Ventoy 安装界面](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/manjaro/1.png)
+![Ventoy 安装界面](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/manjaro/1.png)
 
 建议选择 MBR 格式以及关闭安全启动。
 
@@ -56,7 +56,7 @@ Ventoy 是一个制作可启动 U 盘的工具，在不需要格式化的情况�
 {% endnote %}
 
 从启动后，出现以下画面
-![boot](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/manjaro/20200331155930.png?x-oss-process=style/img)
+![boot](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/manjaro/20200331155930.png?x-oss-process=style/img)
 按照以下进行配置
 
 - `tz`为时区，根据自己的需要进行选择
@@ -64,25 +64,25 @@ Ventoy 是一个制作可启动 U 盘的工具，在不需要格式化的情况�
 - `lang`选择进入 live 系统后的语言，安装时可修改语言
 - `driver`为驱动选择，如果使用 NVIDIA 显卡，建议将此项选择为`Proprietary`（最新版本把两个选项独立出来了）
 
-![boot配置](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/manjaro/20200331160034.png?x-oss-process=style/img)
+![boot配置](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/manjaro/20200331160034.png?x-oss-process=style/img)
 
 选中`boot`，点击<kbd>Enter</kbd>后，进入 live 系统
-![manjaro live](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/manjaro/20200331160423.png?x-oss-process=style/img)
+![manjaro live](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/manjaro/20200331160423.png?x-oss-process=style/img)
 
 关闭欢迎屏幕，双击桌面的第一项`Install Manjaro Linux`进入安装程序
-![install manjaro](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/manjaro/20200331160830.png?x-oss-process=style/img)
+![install manjaro](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/manjaro/20200331160830.png?x-oss-process=style/img)
 
 选择`简体中文(中国)`后，点击下一步
-![choose language](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/manjaro/20200331161011.png?x-oss-process=style/img)
+![choose language](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/manjaro/20200331161011.png?x-oss-process=style/img)
 
 选择系统的时钟`Asia/Shanghai`后，点击下一步
-![time zones](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/manjaro/20200331161145.png?x-oss-process=style/img)
+![time zones](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/manjaro/20200331161145.png?x-oss-process=style/img)
 
 键盘型号请根据自身进行选择，点击下一步
-![keyboard](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/manjaro/20200331161323.png?x-oss-process=style/img)
+![keyboard](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/manjaro/20200331161323.png?x-oss-process=style/img)
 
 到了这一步，可以选择`抹除磁盘`或`手动分区`，选择`抹除磁盘`的可以直接看后面的安装，选择`手动分区`请您继续往下看
-![disk](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/manjaro/20200331162312.png?x-oss-process=style/img)
+![disk](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/manjaro/20200331162312.png?x-oss-process=style/img)
 
 点击新建分区表，选择`GUID分区表(GPT)`格式，点击下一步
 根据自己的需要进行分区
@@ -140,10 +140,10 @@ swap 分区的大小方案
 {% endnote %}
 
 调整好分区之后，我们就开始安装了
-![install manjaro](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/manjaro/20200331175142.png?x-oss-process=style/img)
+![install manjaro](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/manjaro/20200331175142.png?x-oss-process=style/img)
 
 填写好名称以及密码，下一步
-![username password](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/manjaro/20200331175554.png?x-oss-process=style/img)
+![username password](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/manjaro/20200331175554.png?x-oss-process=style/img)
 
 选择安装的 office 套件（当然可以在安装好系统后选择 WPS）
 
@@ -158,6 +158,6 @@ FreeOffice # 博主并未使用过，并不知道好坏
 ## 启动安装好的系统
 
 安装完毕后，重启电脑，进入 manjaro 的桌面。
-![manjaro desktop](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/manjaro/20200331182148.png?x-oss-process=style/img)
+![manjaro desktop](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/manjaro/20200331182148.png?x-oss-process=style/img)
 
 把`Launch at start`关上，这样系统就安装好了。

@@ -16,32 +16,32 @@ date: 2020-03-01 11:22:32
 
 ## blender2.83
 
-![2.83启动页面](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309175943.png?x-oss-process=style/img)
+![2.83启动页面](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309175943.png?x-oss-process=style/img)
 
 打开设置:`Edit > Preferences`
-![设置页面](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309175943.png?x-oss-process=style/img)
+![设置页面](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309175943.png?x-oss-process=style/img)
 
 在`Interface`中找到`Translation`,勾选前面的勾，接着把下面的`Interface`和`New Data`勾选，完成！
-![设置](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309180108.png?x-oss-process=style/img)
+![设置](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309180108.png?x-oss-process=style/img)
 
 重启 blender 查看效果:
-![汉化后](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309180108.png?x-oss-process=style/img)
+![汉化后](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309180108.png?x-oss-process=style/img)
 
 ## blender 2.79
 
-![2.79启动页面](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309180108.png?x-oss-process=style/img)
+![2.79启动页面](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309180108.png?x-oss-process=style/img)
 
 进入设置`Ctrl+Alt+U`,切换到`System`:
-![设置页面](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309180150.png?x-oss-process=style/img)
+![设置页面](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309180150.png?x-oss-process=style/img)
 
 勾选`International Fonts`，在`Languages`将语言选择为`简体中文`
-![设置](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309180204.png?x-oss-process=style/img)
+![设置](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309180204.png?x-oss-process=style/img)
 
 把下方的` Interface``Tooltips``New Data `选择.保存后重启 blender
-![设置](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309180204.png?x-oss-process=style/img)
+![设置](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309180204.png?x-oss-process=style/img)
 
 查看最终效果:
-![汉化后](https://cdn-bmyjacks-io.oss-cn-shenzhen.aliyuncs.com/img/20200309180204.png?x-oss-process=style/img)
+![汉化后](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309180204.png?x-oss-process=style/img)
 
 {% note success %}
 
