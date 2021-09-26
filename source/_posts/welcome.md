@@ -17,7 +17,7 @@ copyright: false
 
 ## 内容分类
 
-最新博文: [LaTeX 数学公式指南（KaTeX 版）](/LaTeX/latex-mathematics/)
+最新博文: [LCIS 最长公共上升子序列学习笔记](/algorithm/dp/lcis/)
 数据结构学习笔记：[总览](/categories/数据结构/)
 做题记录: [总览](/categories/做题记录/)
 算法学习笔记：[总览](/categories/算法笔记/)
