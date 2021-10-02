@@ -23,7 +23,7 @@ custom_file_path:
   header: source/_data/header.njk
   sidebar: source/_data/sidebar.njk
   #postMeta: source/_data/post-meta.njk
-  postBodyEnd: source/_data/post-body-end.njk
+  #postBodyEnd: source/_data/post-body-end.njk
   #footer: source/_data/footer.njk
   #bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
@@ -89,8 +89,8 @@ menu:
   #commonweal: /404/index.html || fa fa-heartbeat
   服务状态: https://status.bmyjacks.io/ || fas fa-check
   隐私协议: /privacy-policy/ || fas fa-balance-scale
-  DSAR表格: /dsar/ || fas fa-balance-scale
-  blog服务更新记录: /blog-update/ || fas fa-wrench
+  DSAR 表格: /dsar/ || fas fa-balance-scale
+  blog 服务更新记录: /blog-update/ || fas fa-wrench
   实时访客: https://www.web-stat.com/live_visitors.htm?oc=562a71228d166b7421b3572175238d00217124b3567b7172b6562b7e23bc032a7226e0532f2375b4562f2375e7577c || fas fa-users
 
 # Enable / Disable menu icons / item badges.
@@ -146,7 +146,7 @@ social:
   GitHub: https://github.com/bmyjacks || fab fa-github
   E-Mail: mailto:bmyjacks@bmyjacks.io || fa fa-envelope
   Telegram: https://t.me/bmyjacks || fab fa-telegram
-  腾讯QQ: http://wpa.qq.com/msgrd?v=3&uin=3166256422&site=qq&menu=yes || fab fa-qq
+  腾讯 QQ: http://wpa.qq.com/msgrd?v=3&uin=3166256422&site=qq&menu=yes || fab fa-qq
 
 social_icons:
   enable: true
@@ -390,7 +390,7 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: true
+  enable: false
   permalink: https://github.com/bmyjacks
   title: Follow me on GitHub
 
