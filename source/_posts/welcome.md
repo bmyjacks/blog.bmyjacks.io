@@ -17,7 +17,7 @@ copyright: false
 
 ## 内容分类
 
-最新博文: [高中常用物理常量](physics/physical-constant/)
+最新博文: [矩阵加速学习笔记](/algorithm/math/matrix-acceleration/)
 数据结构学习笔记：[总览](/categories/数据结构/)
 做题记录: [总览](/categories/做题记录/)
 算法学习笔记：[总览](/categories/算法笔记/)
