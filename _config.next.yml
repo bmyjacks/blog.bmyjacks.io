@@ -91,7 +91,6 @@ menu:
   隐私协议: /privacy-policy/ || fas fa-balance-scale
   DSAR 表格: /dsar/ || fas fa-balance-scale
   blog 服务更新记录: /blog-update/ || fas fa-wrench
-  实时访客: https://www.web-stat.com/live_visitors.htm?oc=562a71228d166b7421b3572175238d00217124b3567b7172b6562b7e23bc032a7226e0532f2375b4562f2375e7577c || fas fa-users
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
