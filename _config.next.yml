@@ -11,7 +11,7 @@
 
 # Allow to cache content generation.
 cache:
-  enable: true
+  enable: false
 
 # Remove unnecessary files after hexo generate.
 minify: true
@@ -21,11 +21,11 @@ minify: true
 custom_file_path:
   head: source/_data/head.njk
   header: source/_data/header.njk
-  sidebar: source/_data/sidebar.njk
+  #sidebar: source/_data/sidebar.njk
   #postMeta: source/_data/post-meta.njk
   #postBodyEnd: source/_data/post-body-end.njk
   #footer: source/_data/footer.njk
-  #bodyEnd: source/_data/body-end.njk
+  bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
   #style: source/_data/styles.styl
@@ -651,7 +651,7 @@ add_this_id:
 # Google Analytics
 # See: https://analytics.google.com
 google_analytics:
-  tracking_id: G-NNT6Z2PHMF
+  tracking_id:
   # By default, NexT will load an external gtag.js script on your site.
   # If you only need the pageview feature, set the following option to true to get a better performance.
   only_pageview: false
