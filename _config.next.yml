@@ -84,7 +84,7 @@ menu:
   #tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
-  #schedule: https://trello.com/b/bH6s4jT0 || fa fa-calendar
+  schedule: https://trello.com/b/uYEvz2TM || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/index.html || fa fa-heartbeat
   服务状态: https://status.bmyjacks.io/ || fas fa-check
@@ -651,7 +651,7 @@ add_this_id:
 # Google Analytics
 # See: https://analytics.google.com
 google_analytics:
-  tracking_id: G-NNT6Z2PHMF
+  tracking_id:
   # By default, NexT will load an external gtag.js script on your site.
   # If you only need the pageview feature, set the following option to true to get a better performance.
   only_pageview: false
