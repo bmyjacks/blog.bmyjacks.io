@@ -89,6 +89,7 @@ menu:
   #commonweal: /404/index.html || fa fa-heartbeat
   服务状态: https://status.bmyjacks.io/ || fas fa-check
   隐私协议: /privacy-policy/ || fas fa-balance-scale
+  Cookie 披露: /cookie-disclosure/ || fas fa-balance-scale
   DSAR 表格: /dsar/ || fas fa-balance-scale
   blog 服务更新记录: /blog-update/ || fas fa-wrench
 
