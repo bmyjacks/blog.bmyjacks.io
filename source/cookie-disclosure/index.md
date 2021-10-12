@@ -7,7 +7,7 @@ katex: false
 ---
 
 {% note info %}
-最后更新时间：2021 年 10 月 11 日
+最后更新时间：2021 年 10 月 12 日
 {% endnote %}
 
 ## www.bmyjacks.cn 上使用的第一方 cookie
