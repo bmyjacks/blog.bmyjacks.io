@@ -8,5 +8,6 @@ Disallow: /privacy-policy/
 Disallow: /cookie-disclosure/
 DisAllow: /dsar/
 DisAllow: /blog-update/
+DisAllow: /law/
 
 Sitemap: https://www.bmyjacks.cn/sitemap.xml

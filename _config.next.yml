@@ -63,8 +63,8 @@ creative_commons:
   # Available values: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | cc-zero
   license: by
   # Available values: big | small
-  size: big
-  sidebar: true
+  size: small
+  sidebar: false
   post: true
   # You can set a language value if you prefer a translated version of CC license, e.g. deed.zh
   # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
@@ -80,17 +80,15 @@ creative_commons:
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  #about: /about/ || fa fa-user
+  about: /about/ || fa fa-user
   #tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
-  schedule: https://trello.com/b/uYEvz2TM || fa fa-calendar
+  #schedule: https://trello.com/b/uYEvz2TM || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/index.html || fa fa-heartbeat
   服务状态: https://status.bmyjacks.io/ || fas fa-check
-  隐私协议: /privacy-policy/ || fas fa-balance-scale
-  Cookie 披露: /cookie-disclosure/ || fas fa-balance-scale
-  DSAR 表格: /dsar/ || fas fa-balance-scale
+  法律服务: /law/ || fas fa-balance-scale
   blog 服务更新记录: /blog-update/ || fas fa-wrench
 
 # Enable / Disable menu icons / item badges.
@@ -146,7 +144,6 @@ social:
   GitHub: https://github.com/bmyjacks || fab fa-github
   E-Mail: mailto:bmyjacks@bmyjacks.io || fa fa-envelope
   Telegram: https://t.me/bmyjacks || fab fa-telegram
-  腾讯 QQ: http://wpa.qq.com/msgrd?v=3&uin=3166256422&site=qq&menu=yes || fab fa-qq
 
 social_icons:
   enable: true
