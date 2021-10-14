@@ -11,7 +11,7 @@
 
 # Allow to cache content generation.
 cache:
-  enable: false
+  enable: true
 
 # Remove unnecessary files after hexo generate.
 minify: true
@@ -28,7 +28,7 @@ custom_file_path:
   #bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  #style: source/_data/styles.styl
+  style: source/_data/styles.styl
 
 # ---------------------------------------------------------------
 # Scheme Settings
