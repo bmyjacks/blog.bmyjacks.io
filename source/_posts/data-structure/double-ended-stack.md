@@ -7,7 +7,9 @@ categories: 数据结构
 keywords:
   - 双端栈
   - 数据结构
-description: 双端栈学习笔记
+  - 信息学竞赛
+  - 栈
+description: 双端栈学习笔记——名字虽相似，但与双端队列完全不同
 hide: false
 comments: true
 katex: true
@@ -17,16 +19,16 @@ date: 2021-08-24 16:33:23
 ---
 
 {% note info %}
-本文章最后更新日期为：2021-08-24
+本文章最后更新日期为：2021-10-15
 {% endnote %}
 
 ## 双端栈是什么
 
-简要来说就是一个数组，这个数组模拟两个栈，这两个栈的栈底分别在数组的两端，而栈顶向数组中间延伸。
+简要来说就是一个**数组**，这个数组**模拟**两个栈，这两个栈的**栈底**分别在数组的两端，而栈顶向数组中间延伸。
 
-## 双端栈能干什么
+## 双端栈的用处
 
-有效利用存储空间（其实也并没有什么用，可以不学）。
+有效利用存储空间（**个人感觉根本没什么用处，建议不是学有余力就先学学其他的东西吧！**）。
 
 ## 如何维护双端栈
 
@@ -35,23 +37,24 @@ date: 2021-08-24 16:33:23
 根据需要进行调整。
 
 ```cpp
-const uint32_t MAX_N = 1e5;
-
-int32_t doubleEndedStack[MAX_N];
+constexpr int MAX_N = 1e5 + 10;
+int stk[MAX_N];
 ```
 
 ### 初始化
 
-初始化时需要将左侧的栈顶初始化为 $-1$，将右侧的栈顶初始化为数组的尾部 $MAX\_N$
+初始化时需要将**左侧的栈顶**初始化为 $-1$，将**右侧的栈顶**初始化为数组的尾部 $\text{MAX\_N}$
 
 $$
-top_{1} \gets -1 \newline
-top_{2} \gets MAX\_N
+\begin{cases}
+  top_{l} &\gets -1 \\
+  top_{r} &\gets MAX\_N
+\end{cases}
 $$
 
 ```cpp
-top1 = -1;
-top2 = MAX_N;
+int topL = -1;
+int topR = MAX_N;
 ```
 
 ### 入栈
@@ -60,14 +63,14 @@ top2 = MAX_N;
 
 $$
 \begin{cases}
-  top_{1} \gets top_{1}+1, \ doubleEndedStack_{top_{1}} \gets x, & \text{add to stack 1} \\
-  top_{2} \gets top_{2}-1, \ doubleEndedStack_{top_{2}} \gets x, & \text{add to stack 2}
+  top_{1} \gets top_{1}+1, \ stk_{top_{1}} \gets x, & \text{add to stack 1} \\
+  top_{2} \gets top_{2}-1, \ stk_{top_{2}} \gets x, & \text{add to stack 2}
 \end{cases}
 $$
 
 ```cpp
-doubleEndedStack[++top1] = x;
-doubleEndedStack[--top1] = x;
+stk[++top1] = x;
+stk[--top1] = x;
 ```
 
 ### 取栈顶
@@ -75,14 +78,14 @@ doubleEndedStack[--top1] = x;
 将`top1`或`top2`位置对应的值取出即为栈顶。
 
 ```cpp
-return doubleEndedStack[top1];
-return doubleEndedStack[top2];
+return stk[top1];
+return stk[top2];
 ```
 
 ### 出栈
 
 将对应的栈顶减 $1$ 或加 $1$ 即可。
-当然需要判断以下是不是会溢出。
+当然需要判断一下是否会溢出。
 
 $$
 \begin{cases}
@@ -150,7 +153,9 @@ top1 = -1;
 top2 = MAX_N;
 ```
 
-## 手写版 code
+## Code
+
+{% note info 手写版code %}
 
 ```cpp
 class DoubleEndedStack {
@@ -245,7 +250,9 @@ class DoubleEndedStack {
 };
 ```
 
-## STL 开挂版 code
+{% endnote %}
+
+{% note info STL版 %}
 
 ```cpp
 class DoubleEndedStack {
@@ -304,3 +311,5 @@ class DoubleEndedStack {
   }
 };
 ```
+
+{% endnote %}
