@@ -5,6 +5,7 @@ categories: [Pi-hole]
 keywords: [pihole, ads, Adguard, 广告, dns]
 description: 现在网上纷繁复杂的广告严重扰乱了我们上网冲浪时的快感，还让我们为之付出流量，为什么不安装Pihole来过滤家中的广告呢？
 date: 2020-02-29 18:49:47
+updated: 2020-02-29 18:49:47
 ---
 
 {% note info %}

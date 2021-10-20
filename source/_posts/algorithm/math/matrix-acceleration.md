@@ -15,11 +15,8 @@ katex: true
 sticky: 0
 sitemap: true
 date: 2021-10-02 17:22:32
+updated: 2021-10-02 17:22:32
 ---
-
-{% note info %}
-本文章最后更新日期为：2021-10-02
-{% endnote %}
 
 {% note info %}
 前置知识：矩阵乘法，快速幂

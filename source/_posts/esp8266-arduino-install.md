@@ -3,7 +3,6 @@ title: 使用arduino配置esp8266开发环境
 tags:
   - esp8266
   - arduino
-  - helloworld
 categories:
   - esp8266
 description: 购买了esp8266开发板之后如何配置arduino下的开发环境？一起来学习一下吧
@@ -12,6 +11,7 @@ keywords:
   - arduino
 hide: false
 date: 2020-08-13 09:29:29
+updated: 2020-08-13 09:29:29
 ---
 
 ## 下载安装 arduino IDE

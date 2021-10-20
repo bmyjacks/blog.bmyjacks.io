@@ -10,6 +10,7 @@ comments: true
 categories: jetson nano
 katex: false
 date: 2021-06-07 14:58:31
+updated: 2021-06-07 14:58:31
 ---
 
 ## 下载辅助脚本

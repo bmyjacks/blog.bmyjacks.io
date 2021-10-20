@@ -7,6 +7,7 @@ categories: 数据结构
 keywords:
   - ST表
   - 数据结构
+  - 信息竞赛
 description: ST表学习笔记
 hide: false
 comments: true
@@ -14,11 +15,8 @@ katex: true
 sticky: 0
 sitemap: true
 date: 2021-08-25 10:50:54
+updated: 2021-08-25 10:50:54
 ---
-
-{% note info %}
-本文章最后更新日期为：2021-08-25
-{% endnote %}
 
 ## ST 表是什么
 

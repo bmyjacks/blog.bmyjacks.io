@@ -5,6 +5,7 @@ categories: [qt]
 keywords: [qt, GUI, QT, qt框架, 图形页面]
 description: 使用Qt来编写桌面窗口应用的图形界面？本教程教您如何安装Qt
 date: 2020-02-19 22:07:08
+updated: 2020-02-19 22:07:08
 ---
 
 {% note info %}

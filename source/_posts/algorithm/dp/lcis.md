@@ -17,11 +17,8 @@ katex: true
 sticky: 0
 sitemap: true
 date: 2021-09-26 20:13:45
+updated: 2021-09-26 20:13:45
 ---
-
-{% note info %}
-本文章最后更新日期为：2020-09-26
-{% endnote %}
 
 ## 什么是 LCIS
 

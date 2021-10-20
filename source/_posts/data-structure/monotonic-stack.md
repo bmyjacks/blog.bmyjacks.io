@@ -14,11 +14,8 @@ katex: false
 sticky: 0
 sitemap: true
 date: 2021-08-23 19:26:07
+updated: 2021-08-23 19:26:07
 ---
-
-{% note info %}
-本文章最后更新日期为：2021-08-23
-{% endnote %}
 
 ## 单调栈是什么
 

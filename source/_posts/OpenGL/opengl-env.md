@@ -1,6 +1,7 @@
 ---
 title: 入门OpenGL教程EP1-搭建环境
 date: 2021-07-19 12:07:20
+updated: 2021-07-19 12:07:20
 tags:
   - OpenGL
   - Visual Studio

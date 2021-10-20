@@ -5,11 +5,12 @@ categories: [Ad Guard]
 keywords: [AdGuard home, Pihole, ads, dns]
 description: 之前我们讲解了使用Pi-hole进行DNS层面的广告过滤，今天我们来看看AdGuard Home的表现是不是和Pihole一样呢?一起来看看吧。
 date: 2020-03-09 20:46:28
+updated: 2020-03-09 20:46:28
 ---
 
 ## 这两者之间各有各的好处，请根据自己的需要来选择
 
-[之前介绍 Pihole 的文章链接](https://www.bmyjacks.cn/2020/pihole.html)
+[之前介绍 Pihole 的文章链接](https://www.bmyjacks.cn/pihole/)
 
 {% note info %}
 

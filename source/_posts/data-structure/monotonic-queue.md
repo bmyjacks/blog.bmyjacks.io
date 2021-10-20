@@ -14,11 +14,8 @@ katex: true
 sticky: 0
 sitemap: true
 date: 2021-08-24 19:31:13
+updated: 2021-08-26 19:31:13
 ---
-
-{% note info %}
-本文章最后更新日期为：2021-08-26
-{% endnote %}
 
 ## 单调队列是什么
 
@@ -257,11 +254,11 @@ int main() {
 
 $$
 \begin{matrix}
-	1 & 2 & 5 & 6 \\
-	0 & 17 & 16 & 0 \\
-	16 & 17 & 2 & 1 \\
-	2 & 10 & 2 & 1 \\
-	1 & 2 & 2 & 2
+ 1 & 2 & 5 & 6 \\
+ 0 & 17 & 16 & 0 \\
+ 16 & 17 & 2 & 1 \\
+ 2 & 10 & 2 & 1 \\
+ 1 & 2 & 2 & 2
 \end{matrix}
 $$
 
@@ -269,11 +266,11 @@ $$
 
 $$
 \begin{matrix}
-	1 & 2 & 5 & 6 \\
-	0 & \colorbox{RoyalBlue}{\color{Red}{17}} & \colorbox{RoyalBlue}{\color{Red}{16}} & 0 \\
-	16 & \colorbox{RoyalBlue}{\color{Red}{17}} & \colorbox{RoyalBlue}{\color{Red}{2}} & 1 \\
-	2 & 10 & 2 & 1 \\
-	1 & 2 & 2 & 2
+ 1 & 2 & 5 & 6 \\
+ 0 & \colorbox{RoyalBlue}{\color{Red}{17}} & \colorbox{RoyalBlue}{\color{Red}{16}} & 0 \\
+ 16 & \colorbox{RoyalBlue}{\color{Red}{17}} & \colorbox{RoyalBlue}{\color{Red}{2}} & 1 \\
+ 2 & 10 & 2 & 1 \\
+ 1 & 2 & 2 & 2
 \end{matrix}
 $$
 
@@ -281,11 +278,11 @@ $$
 
 $$
 \begin{matrix}
-	1 & 2 & 5 & 6 \\
-	0 & \colorbox{Orange}{\color{Red}{17}} & \colorbox{Orange}{\color{Red}{16}} & 0 \\
-	16 & \colorbox{Purple}{\color{Red}{17}} & \colorbox{Purple}{\color{Red}{2}} & 1 \\
-	2 & 10 & 2 & 1 \\
-	1 & 2 & 2 & 2
+ 1 & 2 & 5 & 6 \\
+ 0 & \colorbox{Orange}{\color{Red}{17}} & \colorbox{Orange}{\color{Red}{16}} & 0 \\
+ 16 & \colorbox{Purple}{\color{Red}{17}} & \colorbox{Purple}{\color{Red}{2}} & 1 \\
+ 2 & 10 & 2 & 1 \\
+ 1 & 2 & 2 & 2
 \end{matrix}
 $$
 
@@ -298,11 +295,11 @@ max_{row_{i, j}} \gets \max_{x \in \left(i - n, i\right]}\left(num_{x, j}\right)
 
 max_{row}: \quad
 \begin{matrix}
-	0 & 2 & 5 & 6 \\
-	0 & 17 & 17 & 16 \\
-	0 & 17 & 17 & 2 \\
-	0 & 10 & 10 & 2 \\
-	0 & 2 & 2 & 2
+ 0 & 2 & 5 & 6 \\
+ 0 & 17 & 17 & 16 \\
+ 0 & 17 & 17 & 2 \\
+ 0 & 10 & 10 & 2 \\
+ 0 & 2 & 2 & 2
 \end{matrix}
 $$
 
@@ -313,11 +310,11 @@ max_{row_{i, j}} \gets \min_{x \in \left(i - n, i\right]}\left(num_{x, j}\right)
 
 min_{row}: \quad
 \begin{matrix}
-	0 & 1 & 2 & 5 \\
-	0 & 0 & 16 & 0 \\
-	0 & 16 & 2 & 1 \\
-	0 & 2 & 2 & 1 \\
-	0 & 1 & 2 & 2
+ 0 & 1 & 2 & 5 \\
+ 0 & 0 & 16 & 0 \\
+ 0 & 16 & 2 & 1 \\
+ 0 & 2 & 2 & 1 \\
+ 0 & 1 & 2 & 2
 \end{matrix}
 $$
 
@@ -330,11 +327,11 @@ max_{column_{i, j}} \gets \max_{x \in \left(j - n, j\right]}\left(max_{row_{i, x
 
 max_{column}: \quad
 \begin{matrix}
-	0 & 0 & 0 & 0 \\
-	0 & 17 & 17 & 16 \\
-	0 & 17 & 17 & 16 \\
-	0 & 17 & 17 & 2 \\
-	0 & 10 & 10 & 2
+ 0 & 0 & 0 & 0 \\
+ 0 & 17 & 17 & 16 \\
+ 0 & 17 & 17 & 16 \\
+ 0 & 17 & 17 & 2 \\
+ 0 & 10 & 10 & 2
 \end{matrix}
 $$
 
@@ -345,11 +342,11 @@ min_{column_{i, j}} \gets \min_{x \in \left(j - n, j\right]}\left(min_{row_{i, x
 
 min_{column}: \quad
 \begin{matrix}
-	0 & 0 & 0 & 0 \\
-	0 & 0 & 2 & 0 \\
-	0 & 0 & 2 & 0 \\
-	0 & 2 & 2 & 1 \\
-	0 & 1 & 2 & 1
+ 0 & 0 & 0 & 0 \\
+ 0 & 0 & 2 & 0 \\
+ 0 & 0 & 2 & 0 \\
+ 0 & 2 & 2 & 1 \\
+ 0 & 1 & 2 & 1
 \end{matrix}
 $$
 
@@ -362,11 +359,11 @@ ans_{i,j} \gets max_{column_{i, j}} - min_{column_{i, j}}
 
 ans: \quad
 \begin{matrix}
-	0 & 0 & 0 & 0 \\
-	0 & 17 & 15 & 16 \\
-	0 & 17 & 15 & 16 \\
-	0 & 15 & 15 & 1 \\
-	0 & 9 & 8 & 1
+ 0 & 0 & 0 & 0 \\
+ 0 & 17 & 15 & 16 \\
+ 0 & 17 & 15 & 16 \\
+ 0 & 15 & 15 & 1 \\
+ 0 & 9 & 8 & 1
 \end{matrix}
 $$
 

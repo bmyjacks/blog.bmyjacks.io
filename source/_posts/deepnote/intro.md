@@ -18,11 +18,8 @@ katex: false
 sticky: 0
 sitemap: true
 date: 2021-10-12 15:03:52
+updated: 2021-10-12 15:03:52
 ---
-
-{% note info %}
-本文章最后更新日期为：2021-10-12
-{% endnote %}
 
 ## deepnote 是什么
 

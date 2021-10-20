@@ -4,12 +4,9 @@ tags: [manjaro, linux]
 categories: [manjaro]
 keywords: [manjaro, linux, arch, arch linux]
 date: 2020-03-31 18:02:09
+updated: 2021-09-22 18:02:09
 description: 用久了windows，是不是想切换到linux上呢？让我们来看看如何去安装manjaro吧！
 ---
-
-{% note info %}
-本文章最后更新日期为：2021-09-22
-{% endnote %}
 
 ## 下载映像以及工具
 

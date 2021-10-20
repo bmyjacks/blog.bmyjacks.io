@@ -7,6 +7,7 @@ categories: RaspberryPi
 description: 为树莓派安装好系统之后，默认使用的是国外的软件源，下载速度极慢，如何更换为国内的软件源呢？
 hide: false
 date: 2020-08-20 09:14:05
+updated: 2020-08-20 09:14:05
 keywords:
 ---
 

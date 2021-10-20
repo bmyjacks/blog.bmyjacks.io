@@ -5,6 +5,7 @@ categories: [python]
 keywords: [python, python3]
 description: 接下来开始我们的python入门教程之HelloWorld
 date: 2020-03-13 17:53:26
+updated: 2020-03-13 17:53:26
 ---
 
 ## 第一种方法

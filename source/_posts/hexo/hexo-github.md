@@ -5,6 +5,7 @@ categories: [hexo]
 description: 本文介绍如何将hexo博客上传到GitHub
 keywords: [hexo, git, github, blog, blogger]
 date: 2020-03-16 15:27:56
+updated: 2020-03-16 15:27:56
 ---
 
 ## 方法一：使用 hexo 插件自动上传

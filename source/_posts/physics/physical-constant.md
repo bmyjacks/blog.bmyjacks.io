@@ -14,11 +14,8 @@ katex: true
 sticky: 0
 sitemap: true
 date: 2021-09-29 21:24:34
+updated: 2021-09-29 21:24:34
 ---
-
-{% note info %}
-本文章最后更新日期为：2021-09-29
-{% endnote %}
 
 ## 前言
 

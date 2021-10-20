@@ -17,11 +17,8 @@ katex: true
 sticky: 0
 sitemap: true
 date: 2021-09-17 19:42:03
+updated: 2021-09-23 19:42:03
 ---
-
-{% note info %}
-本文章最后更新日期为：2021-09-23
-{% endnote %}
 
 ## 什么是 `pb_ds`？
 
@@ -94,7 +91,7 @@ tree<double, null_type, std::less<double>, rb_tree_tag,
 
 #### 成员函数
 
-- `insert(x)`插入数 $x$，返回值类型为 `St4pairIN10__gnu_pbds6detail25bin_search_tree_const_it_IPNS1_13rb_tree_node_IdmSaIcEEEdPdPKdRdRS8_Lb1ES4_EEbE `
+- `insert(x)`插入数 $x$，返回值类型为 `St4pairIN10__gnu_pbds6detail25bin_search_tree_const_it_IPNS1_13rb_tree_node_IdmSaIcEEEdPdPKdRdRS8_Lb1ES4_EEbE`
 - `erase(x)`从树中删除数 $x$ 或迭代器 $x$，返回值类型为 `bool`
 - `order_of_key(x)`查询 $x$ 的排名（可近似认为以`Cmp_Fn`来排序后的排名）
 - `find_by_order(x)`查询排名为 $x$ 的元素（同样以`Cmp_Fn`来排名），从 $0$ 开始
@@ -105,7 +102,7 @@ tree<double, null_type, std::less<double>, rb_tree_tag,
 - `empty()`判断树是否为空
 - `size()`返回树的大小
 
-{% note info ### 例子：[洛谷 P6136 【模板】普通平衡树（数据加强版）](https://www.luogu.com.cn/problem/P6136) %}
+{% note info 例子：[洛谷 P6136 【模板】普通平衡树（数据加强版）](https://www.luogu.com.cn/problem/P6136) %}
 
 ```cpp
 #include <ext/pb_ds/assoc_container.hpp>

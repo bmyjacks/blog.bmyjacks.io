@@ -5,6 +5,7 @@ categories: [nginx]
 keywords: [nginx, web, webserver, www, website, 网站, 网站服务器, 服务器]
 description: nginx作为著名的网页服务端,怎么能不安装它体验一下高并发的快感呢?
 date: 2020-02-16 16:52:17
+updated: 2020-02-16 16:52:17
 ---
 
 {% note info %}

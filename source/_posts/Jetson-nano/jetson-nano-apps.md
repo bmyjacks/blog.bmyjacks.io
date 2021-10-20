@@ -17,6 +17,7 @@ hide: false
 comments: true
 katex: false
 date: 2021-02-11 16:41:08
+updated: 2021-02-11 16:41:08
 description: 汇集各种jetson nano常用命令及软件
 ---
 

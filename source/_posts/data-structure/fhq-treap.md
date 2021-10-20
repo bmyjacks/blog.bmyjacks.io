@@ -18,11 +18,8 @@ katex: true
 sticky: 0
 sitemap: true
 date: 2021-08-23 21:24:14
+updated: 2021-09-12 21:24:14
 ---
-
-{% note info %}
-本文章最后更新日期为：2021-09-12
-{% endnote %}
 
 ## FHQ Treap 是什么
 

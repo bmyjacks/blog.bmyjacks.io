@@ -5,6 +5,7 @@ categories: [hexo]
 keywords: [hexo, blog, 个人博客搭建, hexo blog, github 博客]
 description: 想用Hexo来写个人博客，却不知道如何下手？本文将带您一步步安装Hexo来搭建您的个人Hexo博客
 date: 2020-02-09 15:49:20
+updated: 2020-02-09 15:49:20
 ---
 
 ![Hexo Logo](https://cdn-bmyjacks-io.oss-accelerate.aliyuncs.com/img/20200309164643.png?x-oss-process=style/img)

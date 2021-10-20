@@ -5,6 +5,7 @@ categories: [blender]
 keywords: [blender, i18n]
 description: 我们下载安装好blender后，显示的界面是英文的，让我们就来将它切换为中文
 date: 2020-03-01 11:22:32
+updated: 2020-03-01 11:22:32
 ---
 
 {% note info %}

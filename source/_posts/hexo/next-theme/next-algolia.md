@@ -5,6 +5,7 @@ categories: [NexT]
 keywords: [hexo, blog, next, hexo主题, algolia, 搜索, 本地, 博客, 网站]
 description: 在安装了hexo的NexT主题后，我们来看看如何开启algolia搜索
 date: 2020-03-13 15:43:09
+updated: 2020-03-13 15:43:09
 ---
 
 ## 首先，我们需要注册一个 algolia 账号

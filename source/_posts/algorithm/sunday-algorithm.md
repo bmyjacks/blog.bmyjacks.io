@@ -16,6 +16,7 @@ comments: true
 katex: false
 sitemap: true
 date: 2021-04-14 09:19:29
+updated: 2021-04-14 09:19:29
 ---
 
 Sunday 算法是 Daniel M.Sunday 于 1990 年提出的**字符串模式匹配**算法，该算法的核心思想与 BM 算法类似。

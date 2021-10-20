@@ -4,8 +4,8 @@ tags: [NexT, hexo]
 categories: [NexT]
 description: 博客打开慢？一起来看看如何优化您的博客吧！
 keywords: [NexT主题, hexo, 博客, blog, 优化, optimization]
-
 date: 2020-04-06 11:21:03
+updated: 2020-04-06 11:21:03
 ---
 
 ## hexo 自带的`config.yml`优化

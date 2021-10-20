@@ -1,11 +1,13 @@
 ---
 title: {{ title }}
 date: {{ date }}
+updated: {{ date }}
 tags:
 categories:
 keywords:
 description:
-hide:
+sticky:
 comments:
 katex:
+sitemap:
 ---

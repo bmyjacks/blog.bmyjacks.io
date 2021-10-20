@@ -16,11 +16,8 @@ katex: true
 sticky: 0
 sitemap: true
 date: 2021-08-29 16:33:31
+updated: 2021-08-29 16:33:31
 ---
-
-{% note info %}
-本文章最后更新日期为：2021-08-29
-{% endnote %}
 
 ## Powered by
 
@@ -61,7 +58,7 @@ $$
 | `                               | `$                                  | $           | $\vert$ `\vert`                                     | $┌ ┐$ `┌ ┐`                         | $\ulcorner \urcorner$ `\ulcorner \urcorner` | $\Downarrow$ `\Downarrow` |
 | `\|`$\|$                        | $\Vert$ `\Vert`                     | $└ ┘$ `└ ┘` | $\llcorner \lrcorner$ `\llcorner \lrcorner`         | $\Updownarrow$ `\Updownarrow`       |
 | $\lvert \rvert$ `\lvert \rvert` | $\lVert \rVert$ `\lVert \rVert`     | $$ ``       | $\left. \right.$ `\left. \right.`（相信眼睛）       | $\backslash$ `\backslash`           |
-| $\lang \rang$ `\lang \rang`     | $\lt \gt$ `\lt \gt`                 | $⟦ ⟧$ `⟦ ⟧` | $\llbracket \rrbracket$ ``\llbracket \rrbracket     | $\lBrace \rBrace$ `\lBrace \rBrace` |
+| $\lang \rang$ `\lang \rang`     | $\lt \gt$ `\lt \gt`                 | $⟦ ⟧$ `⟦ ⟧` | $\llbracket \rrbracket$``\llbracket \rrbracket      | $\lBrace \rBrace$ `\lBrace \rBrace` |
 
 ### 分隔符大小
 
@@ -79,110 +76,110 @@ $( \big( \Big( \bigg( \Bigg($ `( \big( \Big( \bigg( \Bigg(`
 
 ```tex
 \begin{matrix}
-	a & b \\
-	c & d
+ a & b \\
+ c & d
 \end{matrix}
 or
 \begin{array}{cc}
-	a & b \\
-	c & d
+ a & b \\
+ c & d
 \end{array}
 ```
 
 $$
 \begin{matrix}
-	a & b \\
-	c & d
+ a & b \\
+ c & d
 \end{matrix}
 $$
 
 ```tex
 \begin{pmatrix}
-	a & b \\
-	c & d
+ a & b \\
+ c & d
 \end{pmatrix}
 ```
 
 $$
 \begin{pmatrix}
-	a & b \\
-	c & d
+ a & b \\
+ c & d
 \end{pmatrix}
 $$
 
 ```tex
 \begin{bmatrix}
-	a & b \\
-	c & d
+ a & b \\
+ c & d
 \end{bmatrix}
 ```
 
 $$
 \begin{bmatrix}
-	a & b \\
-	c & d
+ a & b \\
+ c & d
 \end{bmatrix}
 $$
 
 ```tex
 \begin{vmatrix}
-	a & b \\
-	c & d
+ a & b \\
+ c & d
 \end{vmatrix}
 ```
 
 $$
 \begin{vmatrix}
-	a & b \\
-	c & d
+ a & b \\
+ c & d
 \end{vmatrix}
 $$
 
 ```tex
 \begin{Vmatrix}
-	a & b \\
-	c & d
+ a & b \\
+ c & d
 \end{Vmatrix}
 ```
 
 $$
 \begin{Vmatrix}
-	a & b \\
-	c & d
+ a & b \\
+ c & d
 \end{Vmatrix}
 $$
 
 ```tex
 \begin{Bmatrix}
-	a & b \\
-	c & d
+ a & b \\
+ c & d
 \end{Bmatrix}
 ```
 
 $$
 \begin{Bmatrix}
-	a & b \\
-	c & d
+ a & b \\
+ c & d
 \end{Bmatrix}
 $$
 
 ```tex
 \def\arraystretch{1.5}
-	\begin{array}{c:c:c}
-		a & b & c \\ \hline
-		d & e & f \\
-		\hdashline
-		g & h & i
-	\end{array}
+ \begin{array}{c:c:c}
+  a & b & c \\ \hline
+  d & e & f \\
+  \hdashline
+  g & h & i
+ \end{array}
 ```
 
 $$
 \def\arraystretch{1.5}
-	\begin{array}{c:c:c}
-		a & b & c \\ \hline
-		d & e & f \\ \hdashline
-		g & h & i
-	\end{array}
+ \begin{array}{c:c:c}
+  a & b & c \\ \hline
+  d & e & f \\ \hdashline
+  g & h & i
+ \end{array}
 $$
 
 此处显示有误
@@ -190,23 +187,23 @@ $$
 ```tex
 x =
 \begin{cases}
-	a &\text{if } b \\
-	c &\text{if } d
+ a &\text{if } b \\
+ c &\text{if } d
 \end{cases}
 ```
 
 $$
 x =
 \begin{cases}
-	a &\text{if } b \\
-	c &\text{if } d
+ a &\text{if } b \\
+ c &\text{if } d
 \end{cases}
 $$
 
 ```tex
 \begin{rcases}
-	a &\text{if } b \\
-	c &\text{if } d
+ a &\text{if } b \\
+ c &\text{if } d
 \end{rcases}
 ```
 
@@ -216,8 +213,8 @@ $$
 
 ```tex
 \begin{smallmatrix}
-	a & b \\
-	c & d
+ a & b \\
+ c & d
 \end{smallmatrix}
 ```
 
@@ -228,8 +225,8 @@ $$
 ```tex
 \sum_{
 \begin{subarray}{l}
-	i\in\Lambda\\
-	0<j<n
+ i\in\Lambda\\
+ 0<j<n
 \end{subarray}
 }
 ```
@@ -366,7 +363,7 @@ $$
 
 ## 运算符
 
-### 巨大的运算符！
+### 巨大的运算符
 
 | $\sum$ `\sum`         | $\prod$ `\prod`         | $\bigotimes$ `\bigotimes` | $\bigvee$ `\bigvee`     | $\int$ `\int`           |
 | --------------------- | ----------------------- | ------------------------- | ----------------------- | ----------------------- |
