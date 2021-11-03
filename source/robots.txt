@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /404/
 Disallow: /css/
 Disallow: /images/
 Disallow: /favicon/
@@ -7,7 +6,6 @@ Disallow: /js/
 Disallow: /privacy-policy/
 Disallow: /cookie-disclosure/
 DisAllow: /dsar/
-DisAllow: /blog-update/
 DisAllow: /law/
 
 Sitemap: https://www.bmyjacks.cn/sitemap.xml

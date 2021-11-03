@@ -13,6 +13,6 @@ header: true
 
 ## 内容分类
 
-最新博文: [初遇 deepnote —— 使用简介](/deepnote/intro/)
+最新博文: [Trie 学习笔记](/data-structure/trie/)
 数据结构学习笔记：[总览](/categories/数据结构/)
 算法学习笔记：[总览](/categories/算法笔记/)
