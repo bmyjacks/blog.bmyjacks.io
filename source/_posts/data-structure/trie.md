@@ -9,7 +9,7 @@ keywords:
   - trie
   - 字符串
   - 数据结构
-description: trie 学习笔记
+description: Trie 学习笔记
 sticky: 0
 comments: true
 katex: true
