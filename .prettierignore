@@ -3,8 +3,3 @@ public
 
 .github
 .circleci
-
-*.js
-*.json
-*.css
-*.html
