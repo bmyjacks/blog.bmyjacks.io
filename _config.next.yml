@@ -139,7 +139,6 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  RSS: /atom.xml || fa fa-rss
   GitHub: https://github.com/bmyjacks || fab fa-github
   E-Mail: mailto:bmyjacks@bmyjacks.io || fa fa-envelope
   Telegram: https://t.me/bmyjacks || fab fa-telegram
