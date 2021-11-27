@@ -5,8 +5,6 @@ date: 2021-10-14 21:22:36
 
 ## 关于这个博客
 
-本博客使用字体 [Noto Sans SC](https://fonts.google.com/noto/specimen/Noto+Sans+SC)，推荐安装以获得更好的阅读体验。
-
 如果您显示异常，请更新您的浏览器至最新版本或使用[Edge 浏览器](https://www.microsoft.com/en-us/edge)进行访问。
 
 之所以写这个博客主要原因是想分享一些自己的学习历程（经历），一些踩过的坑，帮助大家不走弯路。

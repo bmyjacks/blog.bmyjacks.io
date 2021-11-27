@@ -414,7 +414,7 @@ font:
 
   # Global font settings used for all elements inside <body>.
   global:
-    external: true
+    external: false
     family: Noto Sans SC
     size: 1.1
 
