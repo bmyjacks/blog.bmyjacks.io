@@ -116,13 +116,8 @@ symbols_count_time:
 search:
   path: search.xml
   field: post
-  content: true
+  content: false
   format: html
-
-feed:
-  type: atom
-  path: atom.xml
-  limit: 100
 
 sitemap:
   path: sitemap.xml
