@@ -12,7 +12,6 @@ date: 2021-10-14 21:22:36
 ## 关于我
 
 - bmyjacks@NNEZ
-- 现役 GX OIer
-- C++ / Markdown / $\LaTeX$ / Node,js / Python / Java
-- Manjaro / CLion / Neovim / Vscode / zsh / Edge
+- C++ / Markdown / $\LaTeX$ / Go / Python / R
+- Manjaro / CLion / Neovim / VScode / zsh / PowerShell / Edge
 - **十分憨厚、外交不便、请多包涵**
