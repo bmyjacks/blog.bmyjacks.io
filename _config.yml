@@ -5,16 +5,16 @@
 # Site
 title: bmyjacks blog
 subtitle: 'The box of ideas'
-description: '分享一些学习经历以及一些比较有意思的东西'
-keywords: 数据结构, OI, 算法竞赛
+description: 'Share some of your learning experiences as well as some of the more interesting ones'
+keywords: Data structure, Algorithm
 author: bmyjacks
-language: zh-CN
+language: en
 timezone: 'Asia/Shanghai'
 email: support@bmyjacks.io
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.bmyjacks.cn
+url: https://blog.bmyjacks.io
 permalink: :title/
 permalink_defaults:
 pretty_urls:
@@ -130,13 +130,8 @@ nofollow:
   enable: true
   exclude:
     - www.bmyjacks.cn
-    - blog.slqwq.cn
-    - blog.mbrjun.cn
-    - blog.skk.moe
-    - colsrch.cn
-    - sentencesjudger.xyz
 
-neat_enable: true
+neat_enable: false
 neat_html:
   enable: true
   exclude:
