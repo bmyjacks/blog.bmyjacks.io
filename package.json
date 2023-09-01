@@ -27,10 +27,10 @@
     "hexo-renderer-markdown-it-plus": "^1.0.6",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
-    "hexo-theme-next": "^8.14.1",
+    "hexo-theme-next": "^8.18.0",
     "hexo-word-counter": "0.0.3"
   },
   "devDependencies": {
-    "prettier": "2.8.3"
+    "prettier": "3.0.3"
   }
 }
